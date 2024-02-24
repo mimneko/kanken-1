@@ -43,7 +43,7 @@ class CSVHandler {
 }
 
 // 使用例
-const csvFilePath = 'your_csv_file.csv';
+const csvFilePath = 'assets/熟字訓当て字.csv';
 const csvHandler = new CSVHandler(csvFilePath);
 
 // CSVファイルの読み込み
