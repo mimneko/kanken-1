@@ -19,17 +19,24 @@
 <script>
     // レコードのデータ（例）
     const recordData = [
-        { 番: 1, 問題: '樹懶', 難度: '◆１', 解答: 'なまけもの', 別答: '', 意味: '...' },
+        { 番: 'A0001', 問題: '樹懶', 難易度: １, 解答: 'なまけもの', 別答: '', 意味: '...' },
         // 他のレコードデータも同様に
     ];
 
     // レコードのインスタンスを作成
-    const records = recordData.map(data => new Record(data.番, data.問題, data.難度, data.解答, data.別答, data.意味));
+    const records = recordData.map(data => new Record(data.ID, data.問題, data.難易度, data.解答, data.別答, data.意味));
 
     // レコードのインスタンスを使って何かしらの処理を行う...
     console.log(records);
 </script>
 
-    <p>(例)</p>
+    <h1>漢検１級ランダム模試</h1>
+    <h2>問１　読み</h2>
+    <p>(例1)</p>
+    <p>(例2)</p>
+    <h2>問２　書き</h2>
+    <p>(例1)</p>
+    <p>(例2)</p>
+    
 </body>
 </html>
