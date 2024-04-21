@@ -31,7 +31,7 @@
             fetch(csvFilePath)
                 .then(response => response.text())
                 .then(data => buildTable(data));
-            <!--
+            /*
             // テーブルを構築する関数
             function buildTable(data) {
                 var table = document.getElementById('csv-table');
@@ -57,7 +57,7 @@
                     }
                 }
             }
-            -->
+            */
             function buildTable(data) {
                 var table = document.createElement('table');
                 var rows = data.split('\n');
