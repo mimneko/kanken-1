@@ -11,7 +11,8 @@ csvファイルから問題を読み取り、
 
 現在不要なもの
 - assets: 旧版
-- csvs: ルートに全部置いた
+- csvs: csv_filesに全部置いた
 - index_old.html: 旧版
 - script.js: index.htmlに組み込み済み
 - stylesheet.css: 旧版
+- *.csv: csv_filesに置いた
