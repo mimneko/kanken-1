@@ -21,7 +21,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             // URLから指定されたパラメータの値を取得して、適切なCSVファイルのパスを指定
             var csvFileName = decodeURIComponent(getParameterByName('csv'));
-            var csvFilePath = csvFileName + '.csv'; // CSVファイルのパスを構築
+            var csvFilePath = 'csv_files/' + csvFileName + '.csv'; // CSVファイルのパスを構築
 
             // ページのタイトルと見出しを更新
             document.getElementById('page-title').textContent = csvFileName;
