@@ -20,7 +20,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             // URLから指定されたパラメータの値を取得して、適切なCSVファイルのパスを指定
-            var csvFileName = getParameterByName('csv');
+            var csvFileName = decodeURIComponent(getParameterByName('csv'));
             var csvFilePath = csvFileName + '.csv'; // CSVファイルのパスを構築
 
             // ページのタイトルと見出しを更新
@@ -65,7 +65,7 @@
                     results = regex.exec(window.location.href);
                 if (!results) return null;
                 if (!results[2]) return '';
-                return decodeURIComponent(results[2].replace(/\+/g, ' '));
+                return results[2].replace(/\+/g, ' ');
             }
         });
     </script>
