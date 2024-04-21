@@ -31,7 +31,7 @@
             fetch(csvFilePath)
                 .then(response => response.text())
                 .then(data => buildTable(data));
-
+            <!--
             // テーブルを構築する関数
             function buildTable(data) {
                 var table = document.getElementById('csv-table');
@@ -56,6 +56,37 @@
                         table.appendChild(row);
                     }
                 }
+            }
+            -->
+            function buildTable(data) {
+                var table = document.createElement('table');
+                var rows = data.split('\n');
+                for (var i = 0; i < rows.length; i++) {
+                    var cells = rows[i].split(',');
+                    var row = document.createElement('tr');
+                    for (var j = 0; j < cells.length; j++) {
+                        var cell = document.createElement('td');
+                        var cellContent = cells[j].trim();
+                        // もし改行が含まれている場合、複数の行を追加する
+                        if (cellContent.startsWith('"') && cellContent.endsWith('"')) {
+                            cellContent = cellContent.substring(1, cellContent.length - 1);
+                            var lines = cellContent.split('\n');
+                            for (var k = 0; k < lines.length; k++) {
+                                var line = lines[k];
+                                var lineBreak = document.createElement('br');
+                                cell.appendChild(document.createTextNode(line));
+                                if (k < lines.length - 1) {
+                                    cell.appendChild(lineBreak);
+                                }
+                            }
+                        } else {
+                            cell.textContent = cellContent;
+                        }
+                        row.appendChild(cell);
+                    }
+                    table.appendChild(row);
+                }
+                document.body.appendChild(table);
             }
 
             // URLから指定されたパラメータの値を取得する関数
