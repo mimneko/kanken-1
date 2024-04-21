@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">CSV Table</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="table-container">
+        <h1 id="page-heading">CSV Table</h1>
+        <table id="csv-table">
+            <!-- CSVデータがここに挿入されます -->
+        </table>
+    </div>
+
+    <!-- JavaScriptファイルの読み込み -->
+    <script src="script.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // URLから指定されたパラメータの値を取得して、適切なCSVファイルのパスを指定
+            var csvFileName = getParameterByName('csv');
+            var csvFilePath = csvFileName + '.csv'; // CSVファイルのパスを構築
+
+            // ページのタイトルと見出しを更新
+            document.getElementById('page-title').textContent = csvFileName;
+            document.getElementById('page-heading').textContent = csvFileName;
+
+            // CSVファイルを読み込んでテーブルを構築する
+            fetch(csvFilePath)
+                .then(response => response.text())
+                .then(data => buildTable(data));
+
+            // テーブルを構築する関数
+            function buildTable(data) {
+                var table = document.getElementById('csv-table');
+                var rows = data.split('\n');
+                for (var i = 0; i < rows.length; i++) {
+                    var cells = rows[i].split(',');
+                    if (i === 0) {
+                        var headerRow = document.createElement('tr');
+                        for (var j = 0; j < cells.length; j++) {
+                            var headerCell = document.createElement('th');
+                            headerCell.textContent = cells[j];
+                            headerRow.appendChild(headerCell);
+                        }
+                        table.appendChild(headerRow);
+                    } else {
+                        var row = document.createElement('tr');
+                        for (var k = 0; k < cells.length; k++) {
+                            var cell = document.createElement('td');
+                            cell.textContent = cells[k];
+                            row.appendChild(cell);
+                        }
+                        table.appendChild(row);
+                    }
+                }
+            }
+
+            // URLから指定されたパラメータの値を取得する関数
+            function getParameterByName(name) {
+                name = name.replace(/[\[\]]/g, '\\$&');
+                var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                    results = regex.exec(window.location.href);
+                if (!results) return null;
+                if (!results[2]) return '';
+                return decodeURIComponent(results[2].replace(/\+/g, ' '));
+            }
+        });
+    </script>
+</body>
+</html>
