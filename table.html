@@ -53,6 +53,16 @@
                     table.appendChild(row);
                 });
             }
+
+            // URLから指定されたパラメータの値を取得する関数
+            function getParameterByName(name) {
+                name = name.replace(/[\[\]]/g, '\\$&');
+                var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                    results = regex.exec(window.location.href);
+                if (!results) return null;
+                if (!results[2]) return '';
+                return results[2].replace(/\+/g, ' ');
+            }
         });
     </script>
 </body>
