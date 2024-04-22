@@ -9,6 +9,10 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(response => response.json())
         .then(data => buildTable(data));
 
+    // 除外するキーの配列を定義
+    var excludedKeys = ["ID", "出典"];
+    
+    /*
     // テーブルを構築する関数
     function buildTable(data) {
         var table = document.getElementById('json-table');
@@ -29,6 +33,36 @@ document.addEventListener('DOMContentLoaded', function() {
             var row = document.createElement('tr');
             for (var key in item) {
                 if (item.hasOwnProperty(key)) {
+                    var cell = document.createElement('td');
+                    cell.textContent = item[key];
+                    row.appendChild(cell);
+                }
+            }
+            table.appendChild(row);
+        });
+    }*/
+    // テーブルを構築する関数
+    function buildTable(data) {
+        var table = document.getElementById('json-table');
+    
+        // ヘッダー行の作成
+        var headerRow = document.createElement('tr');
+        for (var key in data[0]) {
+            // 除外するキーを含まない場合にヘッダーセルを追加
+            if (data[0].hasOwnProperty(key) && !excludedKeys.includes(key)) {
+                var headerCell = document.createElement('th');
+                headerCell.textContent = key;
+                headerRow.appendChild(headerCell);
+            }
+        }
+        table.appendChild(headerRow);
+    
+        // データ行の作成
+        data.forEach(function(item) {
+            var row = document.createElement('tr');
+            for (var key in item) {
+                // 除外するキーを含まない場合にセルを追加
+                if (item.hasOwnProperty(key) && !excludedKeys.includes(key)) {
                     var cell = document.createElement('td');
                     cell.textContent = item[key];
                     row.appendChild(cell);
