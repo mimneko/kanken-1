@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
     var jsonFilePath = 'json_files/' + jsonFileName + '.json'; // JSONファイルのパスを構築
 
     // ページのタイトルと見出しを更新
-    document.getElementById('page-title').textContent = jsonFileName;
-    document.getElementById('page-heading').textContent = jsonFileName;
+    document.getElementById('page-title').textContent = jsonFileName.substring(2);
+    document.getElementById('page-heading').textContent = jsonFileName.substring(2);
     
     // JSONファイルを読み込んでテーブルを構築する
     fetch(jsonFilePath)
