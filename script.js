@@ -4,6 +4,10 @@ document.addEventListener('DOMContentLoaded', function() {
     var jsonFileName = decodeURIComponent(getParameterByName('json'));
     var jsonFilePath = 'json_files/' + jsonFileName + '.json'; // JSONファイルのパスを構築
 
+    // ページのタイトルと見出しを更新
+    document.getElementById('page-title').textContent = jsonFileName;
+    document.getElementById('page-heading').textContent = jsonFileName;
+    
     // JSONファイルを読み込んでテーブルを構築する
     fetch(jsonFilePath)
         .then(response => response.json())
@@ -11,36 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // 除外するキーの配列を定義
     var excludedKeys = ["ID", "出典"];
-    
-    /*
-    // テーブルを構築する関数
-    function buildTable(data) {
-        var table = document.getElementById('json-table');
 
-        // ヘッダー行の作成
-        var headerRow = document.createElement('tr');
-        for (var key in data[0]) {
-            if (data[0].hasOwnProperty(key)) {
-                var headerCell = document.createElement('th');
-                headerCell.textContent = key;
-                headerRow.appendChild(headerCell);
-            }
-        }
-        table.appendChild(headerRow);
-
-        // データ行の作成
-        data.forEach(function(item) {
-            var row = document.createElement('tr');
-            for (var key in item) {
-                if (item.hasOwnProperty(key)) {
-                    var cell = document.createElement('td');
-                    cell.textContent = item[key];
-                    row.appendChild(cell);
-                }
-            }
-            table.appendChild(row);
-        });
-    }*/
     // テーブルを構築する関数
     function buildTable(data) {
         var table = document.getElementById('json-table');
