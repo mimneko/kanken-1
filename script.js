@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
     // 除外するキーの配列を定義
-    var excludedKeys = ["ID", "出典", "難易度", "同音異義語用"]; // 難易度列を追加
+    var excludedKeys = ["ID", "出典", "難易度", "同音異義語用"];
 
     // テーブルを構築する関数
     function buildTable(data) {
