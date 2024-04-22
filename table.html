@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="page-title">CSV Table</title>
+    <title id="page-title">JSON Table</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div id="table-container">
-        <h1 id="page-heading">CSV Table</h1>
-        <table id="csv-table">
+        <h1 id="page-heading">JSON Table</h1>
+        <table id="json-table">
             <!-- CSVデータがここに挿入されます -->
         </table>
     </div>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // URLから指定されたパラメータの値を取得して、適切なjsonファイルのパスを指定
+            // URLから指定されたパラメータの値を取得して、適切なJSONファイルのパスを指定
             var jsonFileName = decodeURIComponent(getParameterByName('json'));
-            var jsonFilePath = 'json_files/' + jsonFileName + '.json'; // jsonファイルのパスを構築
+            var jsonFilePath = 'json_files/' + jsonFileName + '.json'; // JSONファイルのパスを構築
 
             // JSONファイルを読み込んでテーブルを構築する
             fetch(jsonFilePath)
