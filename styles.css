@@ -15,5 +15,113 @@ th, td {
 }
 
 th {
+    background-color: #000;
+    color: #fff;
+}
+
+table tr {
+    background-color: #fff;
+}
+
+table tr:nth-child(even){
     background-color: #f2f2f2;
 }
+
+/*
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.25;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 0;
+  width: 650px;
+}
+table tr {
+  background-color: #fff;
+  border-bottom: 2px solid #fff;
+}
+table tr:nth-child(even){
+  background-color: #eee;
+}
+table th,
+table td {
+  padding: .35em 1em;
+}
+table thead th {
+    font-size: .85em;
+    padding: 1em;
+}
+table thead tr{
+  background-color: #fd6767;
+  color:#fff;
+}
+table tbody th {
+  text-align: left;
+  font-size: .8em;
+}
+.txt{
+   text-align: left;
+   font-size: .75em;
+}
+.price{
+  text-align: right;
+  color: #FF7043;
+  font-weight: bold;
+}
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+    width:100%
+  }
+  table th{
+    background-color: #fd6767;
+    display: block;
+    border-right: none;
+  }
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  table tr {
+    display: block;
+    margin-bottom: .625em;
+    border: 1px solid #fd6767;
+  }
+  table td {
+    border-bottom: 1px dotted #bbb;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+    position: relative;
+    padding: 1.5em 1em 1.5em 4em;
+    border-right: none;
+  }
+  
+  table td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    position: absolute;
+    left: 10px;
+    color: #000;
+  }
+  table td:last-child {
+    border-bottom: 0;
+  }
+  table tbody th {
+    color: #fff;
+    padding: 1em
+  }
+  table tr:nth-child(even){
+    background-color: #fff;
+  }
+}
+*/
