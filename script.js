@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
             var filteredData = data;
             var stateSelector = document.getElementById('state-selector');
             if (stateSelector.value === 'normal') {
-                filteredData = data.filter(item => item['難易度'] < 20);
+                filteredData = data.filter(item => item['難易度'] < 30);
             }
             // 改行文字を<br>に変換する処理を追加
             filteredData.forEach(item => {
