@@ -8,3 +8,6 @@ JSONファイルから問題を読み取り、
 - 一覧（詳細）で表形式でも見れるといいかも。並び替え機能とか？  -> htmlベタがきするか
 
 引用元: https://hagunn2525.wixsite.com/kanji-teihitsu/mondai, 参照2024/04/22
+
+- 対義語: ⇄
+- 類義語: ≒
