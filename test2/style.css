@@ -1,0 +1,82 @@
+
+/* https://b-risk.jp/blog/2018/07/table-css/ */
+
+body {
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+}
+p {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 60px auto 40px;
+}
+th {
+  background: #e9727e;
+  color: #fff;
+  padding: 10px;
+}
+td {
+  padding: 10px;
+}
+
+#table-container {
+  overflow-x: hidden; /* 横スクロールを許可 */
+  max-width: calc(100vw - 17px); /* ウィンドウ幅から縦方向スクロールバーの幅を引いた幅 */
+}
+
+table {
+  margin: 0 auto; /* テーブルを中央に配置 */
+  table-layout: auto; /* テーブルのレイアウトを自動に設定 */
+  border-collapse: collapse; /* テーブルの境界線を隙間なく表示 */
+}
+
+.tbl-r05 td:first-child {
+  background: #fbf5f5;
+}
+@media screen and (max-width: 640px) {
+  .tbl-r05 {
+    width: 100%; /* モバイルでも幅を100%に設定 */
+    /*margin: 0 auto;*/
+  }
+  .tbl-r05 .thead {
+    display: none;
+  }
+  /*
+  .tbl-r05 tr {
+    width: 100%;
+  }*/
+  .tbl-r05 td {
+    display: block;
+    text-align: right;
+    font-size: 1rem;
+    width: 100%;
+    position: relative; /* 追加 */
+  }
+  .tbl-r05 td:first-child {
+    background: #e9727e;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+  }
+  .tbl-r05 td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  .tbl-r05 td.word {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .tbl-r05 td.meaning {
+    text-align: left;
+  }
+  .tbl-r05 td:before {
+    font-size: 1rem;
+    display: inline-block; /* 修正 */
+    position: absolute; /* 追加 */
+    left: 1rem; /* 追加 */
+    top: 50%; /* 追加 */
+    transform: translateY(-50%); /* 追加 */
+  }
+}
