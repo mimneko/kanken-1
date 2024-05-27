@@ -11,23 +11,24 @@ p {
   margin: 60px auto 40px;
 }
 th {
-  background: #e9727e;
+  background: #3e96d2;
   color: #fff;
   padding: 10px;
 }
 td {
   padding: 10px;
 }
-
+/*
 #table-container {
-  overflow-x: hidden; /* 横スクロールを許可 */
-  max-width: calc(100vw - 17px); /* ウィンドウ幅から縦方向スクロールバーの幅を引いた幅 */
+  overflow-x: hidden;
+  max-width: calc(100vw - 17px);
 }
+*/
 
 table {
-  margin: 0 auto; /* テーブルを中央に配置 */
-  table-layout: auto; /* テーブルのレイアウトを自動に設定 */
-  border-collapse: collapse; /* テーブルの境界線を隙間なく表示 */
+  margin: 0 auto;
+  table-layout: auto;
+  border-collapse: collapse;
 }
 
 .tbl-r05 td:first-child {
@@ -35,34 +36,34 @@ table {
 }
 @media screen and (max-width: 640px) {
   .tbl-r05 {
-    width: 100%; /* モバイルでも幅を100%に設定 */
-    /*margin: 0 auto;*/
+    width: 100%;
   }
   .tbl-r05 .thead {
     display: none;
   }
-  /*
-  .tbl-r05 tr {
-    width: 100%;
-  }*/
   .tbl-r05 td {
     display: block;
     text-align: right;
     font-size: 1rem;
-    /*width: 100%;*/
-    position: relative; /* 追加 */
+    position: relative;
+    padding-left: 5rem; /* 左側に余白を追加 */
+    box-sizing: border-box; /* パディングを含むボックスサイズを設定 */
   }
   .tbl-r05 td:first-child {
-    background: #e9727e;
+    background: #3e96d2;
     color: #fff;
     font-weight: bold;
     text-align: center;
   }
   .tbl-r05 td:before {
     content: attr(data-label);
-    float: left;
+    font-size: 1rem;
     font-weight: bold;
-    margin-right: 10px;
+    float: left;
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
   }
   .tbl-r05 td.word {
     text-align: center;
@@ -70,13 +71,5 @@ table {
   }
   .tbl-r05 td.meaning {
     text-align: left;
-  }
-  .tbl-r05 td:before {
-    font-size: 1rem;
-    display: inline-block; /* 修正 */
-    position: absolute; /* 追加 */
-    left: 1rem; /* 追加 */
-    top: 50%; /* 追加 */
-    transform: translateY(-50%); /* 追加 */
   }
 }
