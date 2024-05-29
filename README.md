@@ -7,7 +7,9 @@ JSONファイルから問題を読み取り、
 - ランダム表示（簡易）して、大問ごとに問題形式で見れるように？（国字が少なすぎる）  -> js
 - 一覧（詳細）で表形式でも見れるといいかも。並び替え機能とか？  -> htmlベタがきするか
 
-引用元: https://hagunn2525.wixsite.com/kanji-teihitsu/mondai, 参照2024/04/22
+珍しい字の1字フォントまたはsvgファイルは、GlyphWikiから借りた
 
-- 対義語: ⇄
-- 類義語: ≒
+引用元:
+
+https://hagunn2525.wixsite.com/kanji-teihitsu/mondai, 参照2024-04-22
+https://glyphwiki.org/wiki/GlyphWiki, 参照2024-05-29
