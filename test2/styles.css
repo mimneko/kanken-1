@@ -3,9 +3,13 @@
 /* https://qiita.com/unotovive/items/59f4f3d2379af5bcef5a */
 
 body {
+  font-family: "Yu Gothic Medium", Meiryo, sans-serif;
+}
+/*
+body {
   font-family: "Yu Gothic Medium", "Noto Sans Japanese", "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
 }
-
+*/
 p {
   font-size: 16px;
   font-weight: bold;
