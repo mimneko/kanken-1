@@ -4,9 +4,9 @@ https://fixel.co.jp/blog/select-design-customize/
 */
 
 body {
-    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    font-family: "Yu Gothic Medium", "Noto Sans Japanese", "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
 }
-
+/*
 #table-container {
     margin: 20px;
 }
@@ -34,7 +34,7 @@ th {
     background-color: #3e96d2;
     color: #fff;
     text-align: center;
-}
+}*/
 
 select {
     font-size: 1.2rem;
@@ -42,130 +42,72 @@ select {
     margin: .5rem 0;
 }
 
-/*
-body {
-  font-family: "Open Sans", sans-serif;
-  line-height: 1.25;
+th {
+  background: #3e96d2;
+  color: #fff;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
 }
 
 table {
-  border-collapse: collapse;
   margin: 0 auto;
-  padding: 0;
-  width: 650px;
+  table-layout: auto;
+  border-collapse: collapse;
 }
-table tr {
-  background-color: #fff;
-  border-bottom: 2px solid #fff;
+
+#json-table td:first-child {
+  background: #fbf5f5;
 }
-table tr:nth-child(even){
-  background-color: #eee;
-}
-table th,
-table td {
-  padding: .35em 1em;
-}
-table thead th {
-    font-size: .85em;
-    padding: 1em;
-}
-table thead tr{
-  background-color: #fd6767;
-  color:#fff;
-}
-table tbody th {
-  text-align: left;
-  font-size: .8em;
-}
-.txt{
-   text-align: left;
-   font-size: .75em;
-}
-.price{
-  text-align: right;
-  color: #FF7043;
-  font-weight: bold;
-}
-@media screen and (max-width: 600px) {
-  table {
-    border: 0;
-    width:100%
-  }
-  table th{
-    background-color: #fd6767;
-    display: block;
-    border-right: none;
-  }
-  table thead {
-    border: none;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-  }
-  table tr {
-    display: block;
-    margin-bottom: .625em;
-    border: 1px solid #fd6767;
-  }
-  table td {
-    border-bottom: 1px dotted #bbb;
-    display: block;
-    font-size: .8em;
-    text-align: right;
-    position: relative;
-    padding: 1.5em 1em 1.5em 4em;
-    border-right: none;
-  }
-  
-  table td::before {
-    content: attr(data-label);
-    font-weight: bold;
-    position: absolute;
-    left: 10px;
-    color: #000;
-  }
-  table td:last-child {
-    border-bottom: 0;
-  }
-  table tbody th {
-    color: #fff;
-    padding: 1em
-  }
-  table tr:nth-child(even){
-    background-color: #fff;
-  }
-}
-*/
 
 @media screen and (max-width: 640px) {
-  /*.table {
-    width: 80%;
-  }*/
-  .table .thead {
+  #json-table {
+    width: 100%;
+  }
+
+  #json-table tr:has(th) {
     display: none;
   }
-  .table tr {
-    width: 100%;
-  }
-  .table td {
+
+  #json-table td {
     display: block;
-    text-align: right;
-    width: 100%;
+    text-align: left;
+    font-size: 1rem;
+    position: relative;
+    padding-left: 5rem; /* 左側に余白を追加 */
+    box-sizing: border-box; /* パディングを含むボックスサイズを設定 */
   }
-  .table td:first-child {
+
+  #json-table td:first-child {
     background: #3e96d2;
     color: #fff;
     font-weight: bold;
+  }
+
+  #json-table td:before {
+    content: attr(data-label);
+    font-size: 1rem;
+    font-weight: bold;
+    float: left;
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  #json-table td.word {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  #json-table td.kana {
     text-align: center;
   }
-  .table td:before {
-    content: attr(data-label);
-    float: left;
-    font-weight: bold;
-    margin-right: 10px;
+
+  #json-table td.meaning
+  #json-table td.sentence {
+    text-align: left;
   }
 }
