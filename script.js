@@ -61,6 +61,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (item.hasOwnProperty(key) && !excludedKeys.includes(key)) {
                     var cell = document.createElement('td');
                     cell.setAttribute('data-label', key); // data-label属性を追加
+                    
+                    // キーに対応するクラスを追加
+                    if (keyClassMap.hasOwnProperty(key)) {
+                        cell.classList.add(keyClassMap[key]);
+                    }
+                    
                     // セル内のテキストに改行が含まれている場合は、HTMLとして解釈する
                     if (item[key].includes('<br>')) {
                         cell.innerHTML = item[key];
