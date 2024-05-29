@@ -35,6 +35,33 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // 除外するキーの配列を定義
     var excludedKeys = ["ID", "出典", "難易度", "同音異義語用", "引用元"];
+    // キーと追加するクラスの対応関係を定義
+    var keyClassMap = {
+      "熟語": "word",
+      "語": "word",
+      "国字": "word",
+      "四字熟語": "word",
+      "問題": "word",
+      "一字訓": "word",
+      "対義語": "word",
+      "類義語": "word",
+    
+      "読み": "kana",
+      "熟語読み": "kana",
+      "一字訓読み": "kana",
+      "対義語読み": "kana",
+      "類義語読み": "kana",
+      "故事成語諺読み": "kana",
+    
+      "意味": "meaning",
+      "熟語意味": "meaning",
+      "対義語意味": "meaning",
+      "類義語意味": "meaning",
+    
+      "用例": "sentence",
+      "類義": "sentence",
+      "故事成語諺": "sentence"
+    };
 
     // テーブルを構築する関数
     function buildTable(data) {
