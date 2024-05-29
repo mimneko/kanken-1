@@ -86,3 +86,34 @@ table {
     text-align: left;
   }
 }
+
+/* ヒラギノ角ゴシックの定義 */
+@font-face {
+  font-family: 'Hiragino Kaku Gothic';
+  src: local('Hiragino Kaku Gothic ProN'), local('ヒラギノ角ゴ ProN W3');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fallback-svg {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.special-character {
+  font-family: 'Hiragino Kaku Gothic', sans-serif;
+}
+
+.special-character[data-replace="2b4bc"]::before {
+  content: '';
+  background-image: url('u2b4bc.svg');
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+}
