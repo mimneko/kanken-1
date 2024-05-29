@@ -11,5 +11,5 @@ JSONファイルから問題を読み取り、
 
 引用元:
 
-https://hagunn2525.wixsite.com/kanji-teihitsu/mondai, 参照2024-04-22
-https://glyphwiki.org/wiki/GlyphWiki, 参照2024-05-29
+- https://hagunn2525.wixsite.com/kanji-teihitsu/mondai, 参照2024-04-22
+- https://glyphwiki.org/wiki/GlyphWiki, 参照2024-05-29
