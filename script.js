@@ -60,6 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 // 除外するキーを含まない場合にセルを追加
                 if (item.hasOwnProperty(key) && !excludedKeys.includes(key)) {
                     var cell = document.createElement('td');
+                    cell.setAttribute('data-label', key); // data-label属性を追加
                     // セル内のテキストに改行が含まれている場合は、HTMLとして解釈する
                     if (item[key].includes('<br>')) {
                         cell.innerHTML = item[key];
