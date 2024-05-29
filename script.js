@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', function() {
     // URLから指定されたパラメータの値を取得して、適切なJSONファイルのパスを指定
     var jsonFileName = decodeURIComponent(getParameterByName('json'));
@@ -9,65 +8,49 @@ document.addEventListener('DOMContentLoaded', function() {
     var pageHeading = document.getElementById('page-heading');
     pageTitle.textContent = jsonFileName.substring(2);
     pageHeading.textContent = jsonFileName.substring(2);
-    
+
     // JSONファイルを読み込んでテーブルを構築する
     fetch(jsonFilePath)
         .then(response => response.json())
         .then(data => {
-            // データをランダムにシャッフル
-            shuffleArray(data);
-            // 通常の場合は難易度が2以下のデータのみ表示、満点の場合はすべて表示
-            var filteredData = data;
-            var stateSelector = document.getElementById('state-selector');
-            if (stateSelector.value === 'normal') {
-                filteredData = data.filter(item => item['難易度'] < 30);
-            }
-            // 改行文字を<br>に変換する処理を追加
-            filteredData.forEach(item => {
-                for (var key in item) {
-                    if (item.hasOwnProperty(key) && typeof item[key] === 'string') {
-                        item[key] = item[key].replace(/\n/g, '<br>');
-                    }
-                }
-            });
-            buildTable(filteredData);
+            updateTable(data); // 初回のテーブル更新
         });
 
     // 除外するキーの配列を定義
     var excludedKeys = ["ID", "出典", "難易度", "同音異義語用", "引用元"];
     // キーと追加するクラスの対応関係を定義
     var keyClassMap = {
-      "熟語": "word",
-      "語": "word",
-      "国字": "word",
-      "四字熟語": "word",
-      "問題": "word",
-      "一字訓": "word",
-      "対義語": "word",
-      "類義語": "word",
-    
-      "読み": "kana",
-      "熟語読み": "kana",
-      "一字訓読み": "kana",
-      "対義語読み": "kana",
-      "類義語読み": "kana",
-      "故事成語諺読み": "kana",
-    
-      "意味": "meaning",
-      "熟語意味": "meaning",
-      "対義語意味": "meaning",
-      "類義語意味": "meaning",
-    
-      "用例": "sentence",
-      "類義": "sentence",
-      "故事成語諺": "sentence"
+        "熟語": "word",
+        "語": "word",
+        "国字": "word",
+        "四字熟語": "word",
+        "問題": "word",
+        "一字訓": "word",
+        "対義語": "word",
+        "類義語": "word",
+        
+        "読み": "kana",
+        "熟語読み": "kana",
+        "一字訓読み": "kana",
+        "対義語読み": "kana",
+        "類義語読み": "kana",
+        "故事成語諺読み": "kana",
+        
+        "意味": "meaning",
+        "熟語意味": "meaning",
+        "対義語意味": "meaning",
+        "類義語意味": "meaning",
+        
+        "用例": "sentence",
+        "類義": "sentence",
+        "故事成語諺": "sentence"
     };
 
     // テーブルを構築する関数
     function buildTable(data) {
         var table = document.getElementById('json-table');
         table.innerHTML = ''; // テーブルを初期化
-        
+
         // ヘッダー行の作成
         var headerRow = document.createElement('tr');
         for (var key in data[0]) {
@@ -79,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
         table.appendChild(headerRow);
-    
+
         // データ行の作成
         data.forEach(function(item) {
             var row = document.createElement('tr');
@@ -88,12 +71,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (item.hasOwnProperty(key) && !excludedKeys.includes(key)) {
                     var cell = document.createElement('td');
                     cell.setAttribute('data-label', key); // data-label属性を追加
-                    
+
                     // キーに対応するクラスを追加
                     if (keyClassMap.hasOwnProperty(key)) {
                         cell.classList.add(keyClassMap[key]);
                     }
-                    
+
                     // セル内のテキストに改行が含まれている場合は、HTMLとして解釈する
                     if (item[key].includes('<br>')) {
                         cell.innerHTML = item[key];
@@ -113,22 +96,28 @@ document.addEventListener('DOMContentLoaded', function() {
         fetch(jsonFilePath)
             .then(response => response.json())
             .then(data => {
-                shuffleArray(data); // データをランダムにシャッフル
-                var filteredData = data;
-                if (stateSelector.value === 'normal') {
-                    filteredData = data.filter(item => item['難易度'] <= 2);
-                }
-                // 改行文字を<br>に変換する処理を追加
-                filteredData.forEach(item => {
-                    for (var key in item) {
-                        if (item.hasOwnProperty(key) && typeof item[key] === 'string') {
-                            item[key] = item[key].replace(/\n/g, '<br>');
-                        }
-                    }
-                });
-                buildTable(filteredData);
+                updateTable(data); // state-selectorの変更時にもテーブルを更新
             });
     });
+
+    // テーブルを更新する関数（シャッフルとフィルタリングを含む）
+    function updateTable(data) {
+        shuffleArray(data); // データをランダムにシャッフル
+        var stateSelector = document.getElementById('state-selector');
+        var filteredData = data;
+        if (stateSelector.value === 'normal') {
+            filteredData = data.filter(item => item['難易度'] < 30); // 難易度が30未満のもののみを表示
+        }
+        // 改行文字を<br>に変換する処理を追加
+        filteredData.forEach(item => {
+            for (var key in item) {
+                if (item.hasOwnProperty(key) && typeof item[key] === 'string') {
+                    item[key] = item[key].replace(/\n/g, '<br>');
+                }
+            }
+        });
+        buildTable(filteredData);
+    }
 
     // URLから指定されたパラメータの値を取得する関数
     function getParameterByName(name) {
