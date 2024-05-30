@@ -50,6 +50,7 @@ th {
 
 td {
   padding: 10px;
+  min-height: 46px;
 }
 
 table {
