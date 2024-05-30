@@ -18,6 +18,7 @@ ul {
   list-style-type: disc;
   padding: 1em 1em 1em 2.5em;
   border: 2px solid #3e96d2;
+  margin: 16px;
 }
 
 ul li {
