@@ -40,6 +40,10 @@ select {
   background: #fbf5f5;
 }
 
+#json-table td.word {
+  font-size: 2rem;
+}
+
 @media screen and (max-width: 640px) {
   #table-container {
     margin: 0;
