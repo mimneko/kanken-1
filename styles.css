@@ -7,6 +7,12 @@ body {
   font-family: "Yu Gothic Medium", "Noto Sans Japanese", "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
 }
 
+h1 {
+  padding: .75rem 1rem;
+  margin: 0 0 1.5rem 0;
+  border-bottom: solid 3px #222;
+}
+
 ul {
   list-style-type: disc;
   padding: 1em 1em 1em 2.5em;
