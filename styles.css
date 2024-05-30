@@ -10,31 +10,6 @@ body {
 #table-container {
   margin: 20px;
 }
-/*
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-th, td {
-  text-align: left;
-  max-width: 300px;
-  padding: 8px;
-}
-
-table tr {
-  background-color: #fff;
-}
-
-table tr:nth-child(even){
-  background-color: #f2f2f2;
-}
-
-th {
-  background-color: #3e96d2;
-  color: #fff;
-  text-align: center;
-}*/
 
 select {
   font-size: 1.2rem;
@@ -53,7 +28,7 @@ td {
   min-height: 46px;
 }
 
-table {
+#json-table {
   margin: 0 auto;
   table-layout: auto;
   border-collapse: collapse;
