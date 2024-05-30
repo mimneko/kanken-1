@@ -101,6 +101,7 @@ li {
 @media (max-width: 600px) {
   #toc {
     width: 90%;
+    margin: 2rem auto;
   }
 }
 
