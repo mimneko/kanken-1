@@ -59,6 +59,7 @@ select {
     position: relative;
     padding-left: 5rem; /* 左側に余白を追加 */
     box-sizing: border-box; /* パディングを含むボックスサイズを設定 */
+    min-width: 0;
   }
 
   #json-table td:first-child {
