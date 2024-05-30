@@ -7,7 +7,7 @@ https://fixel.co.jp/blog/select-design-customize/
   定数
 ----------------------------------------- */
 :root {
-  --color-main: #0099ce;
+  --color-main: #3e96d2;
   --color-main-pale: #cce4ff;
   --color-white: #fcfcfc;
   --color-gray: #808080;
@@ -142,8 +142,8 @@ li {
 }
 
 #json-table th {
-  background: #3e96d2;
-  color: #fff;
+  background: var(--color-main);
+  color: var(--color-white);
   padding: 10px;
 }
 
@@ -185,8 +185,8 @@ li {
   }
 
   #json-table td:first-child {
-    background: #3e96d2;
-    color: #fff;
+    background: var(--color-main);
+    color: var(--color-white);
     font-weight: bold;
   }
 
