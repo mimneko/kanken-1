@@ -95,6 +95,7 @@ li {
 @media print {
   #toc {
     background-image: none;
+    width: 90%;
   }
 }
 
@@ -116,12 +117,6 @@ li {
   margin: 0 auto;
   line-height: 1.8rem;
   padding-inline-start: 30px;
-}
-
-@media (max-width: 600px) {
-  #toc-content {
-    width: 90%;
-  }
 }
 
 #toc-content li {
