@@ -153,10 +153,6 @@ li {
   min-width: 5rem;
 }
 
-#json-table td:first-child {
-  background: #fbf5f5;
-}
-
 #json-table td.word {
   font-size: 2rem;
 }
@@ -210,7 +206,7 @@ li {
     text-align: center;
   }
 
-  #json-table td.meaning
+  #json-table td.meaning,
   #json-table td.sentence {
     text-align: left;
   }
