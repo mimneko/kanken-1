@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // ページのタイトルと見出しを更新
     var pageTitle = document.getElementById('page-title');
-    var pageHeading = document.getElementById('page-heading');
+    var pageHeading = document.getElementById('article-title');
     pageTitle.textContent = jsonFileName.substring(2);
     pageHeading.textContent = jsonFileName.substring(2);
 
