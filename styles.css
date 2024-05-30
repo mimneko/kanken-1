@@ -17,21 +17,22 @@ select {
   margin: .5rem 0;
 }
 
-th {
+#json-table {
+  margin: 0 auto;
+  table-layout: auto;
+  border-collapse: collapse;
+}
+
+#json-table th {
   background: #3e96d2;
   color: #fff;
   padding: 10px;
 }
 
-td {
+#json-table td {
   padding: 10px;
   min-height: 46px;
-}
-
-#json-table {
-  margin: 0 auto;
-  table-layout: auto;
-  border-collapse: collapse;
+  min-width: 5rem;
 }
 
 #json-table td:first-child {
