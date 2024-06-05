@@ -8,5 +8,7 @@ K1訓読みの、「まえみつ」「濫用（ランヨウ）」「宛（ずつ
 
 読みに送りがなも付けたい
 
+四字熟語の「成句」
+
 [^1]: https://hagunn2525.wixsite.com/kanji-teihitsu/mondai, 参照2024-04-22
 [^2]: https://glyphwiki.org/wiki/GlyphWiki, 参照2024-05-29
