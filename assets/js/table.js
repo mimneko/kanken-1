@@ -23,7 +23,8 @@ const columnClassMapping = {
 // CSVファイルを読み込む関数
 async function loadCSV(fileName) {
     try {
-        const response = await fetch(`../../data/raw/${fileName}.csv`);
+        // const response = await fetch(`../../data/raw/${fileName}.csv`);
+        const response = await fetch(`../data/raw/${fileName}.csv`);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
