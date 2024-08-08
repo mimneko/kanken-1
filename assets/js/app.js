@@ -41,7 +41,8 @@ document.addEventListener('DOMContentLoaded', function () {
     // 全てのJSONファイルを読み込む関数
     async function loadAllQuestions() {
         const promises = questionLabels.map(label => 
-            fetch(`../../data/processed/${label}.json`).then(response => response.json())
+            // fetch(`../../data/processed/${label}.json`).then(response => response.json())
+            fetch(`../data/processed/${label}.json`).then(response => response.json())
         );
         return Promise.all(promises);
     }
