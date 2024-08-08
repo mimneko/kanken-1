@@ -1,0 +1,1382 @@
+{
+    "type": "2-2",
+    "write_date": "2024-08-07",
+    "title": "国字",
+    "subQuestions": [
+        {
+            "id": "C0001",
+            "level": 1,
+            "questionParts": {
+                "before": "蓴鱸、郷の",
+                "highlight": "オモカゲ",
+                "after": "を見て憂う。"
+            },
+            "answer": "俤",
+            "explanation": "#＝面影<br>★人と、その弟が似ていることからできた字。「おもかげ」は「面影」の意。"
+        },
+        {
+            "id": "C0002",
+            "level": 1,
+            "questionParts": {
+                "before": "敷石の上の駛走する",
+                "highlight": "クルマ",
+                "after": "。"
+            },
+            "answer": "俥",
+            "explanation": "人力車。〈漢字ペディア〉<br>★「人がひく車」の意を表す国字。"
+        },
+        {
+            "id": "C0003",
+            "level": 1,
+            "questionParts": {
+                "before": "寒冽の地に吹く",
+                "highlight": "コガラシ",
+                "after": "に身を竦める。"
+            },
+            "answer": "凩",
+            "explanation": "秋の末から冬にかけて強く吹く冷たい風。〈漢字ペディア〉<br>★木を吹きからす風(几)の意を表す国字。また、「こがらし」は木枯らしの意。"
+        },
+        {
+            "id": "C0004",
+            "level": 1,
+            "questionParts": {
+                "before": "圉人は筵の",
+                "highlight": "カマス",
+                "after": "を佩びる。"
+            },
+            "answer": "叺",
+            "explanation": "穀物などを入れるのに用いる、むしろで作った袋。〈漢字ペディア〉<br>★口から入れる意を表す字。<br>★魳(ｶﾏｽ)は、カマス科の海魚の総称。"
+        },
+        {
+            "id": "C0005",
+            "level": 1,
+            "questionParts": {
+                "before": "三百七",
+                "highlight": "フィート",
+                "after": "の高塔から響く鐘の音。"
+            },
+            "answer": "呎",
+            "explanation": "長さの単位。約30.5センチメートル。ft。〈漢字ペディア〉<br>★英語の「フィート」に当てた国字。中国でも用いられている。"
+        },
+        {
+            "id": "C0006",
+            "level": 1,
+            "questionParts": {
+                "before": "罍には約二十",
+                "highlight": "ガロン",
+                "after": "の酒が入っている。"
+            },
+            "answer": "呏",
+            "explanation": "容量の単位。1ガロンはイギリスで約4.5リットル、アメリカと日本で約3.8リットル。gal。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0007",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "イリ",
+                "after": "の口に桜が浮いている。"
+            },
+            "answer": "圦",
+            "explanation": "堤に埋めて、用水・下水の流れを調節する樋(ﾄｲ)。水門。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0008",
+            "level": 1,
+            "questionParts": {
+                "before": "上州名物",
+                "highlight": "カカア",
+                "after": "天下に空っ風。"
+            },
+            "answer": "嬶",
+            "explanation": "#＝嚊<br>自分の妻または他人の妻を親しんでいう語。またぞんざいに呼ぶ語。〈大辞泉〉<br>★鼻息のあらい女の意からできた字。"
+        },
+        {
+            "id": "C0009",
+            "level": 1,
+            "questionParts": {
+                "before": "三度去られし十行半の",
+                "highlight": "カカ",
+                "after": "。"
+            },
+            "answer": "嬶",
+            "explanation": "#＝嚊<br>庶民階層で、妻をいう語。かかあ。〈大辞泉〉<br>★鼻息のあらい女の意からできた字。"
+        },
+        {
+            "id": "C0010",
+            "level": 1,
+            "questionParts": {
+                "before": "盗人に銀の",
+                "highlight": "ナタ",
+                "after": "。"
+            },
+            "answer": "屶",
+            "explanation": "#＝鉈<br>幅が広く厚い刃物に柄(ｴ)をつけたもの。まきなどを割る刃物。〈漢字ペディア〉<br>★「山刀(なた)」を一つに合わせた国字。"
+        },
+        {
+            "id": "C0011",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "テ",
+                "after": "爾乎波が合わない。"
+            },
+            "answer": "弖",
+            "explanation": "助詞の「て」の当て字。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0012",
+            "level": 1,
+            "questionParts": {
+                "before": "数多の苦痛に",
+                "highlight": "コラ",
+                "after": "える。"
+            },
+            "answer": "怺",
+            "explanation": "#＝堪える<br>苦しみをがまんする。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0013",
+            "level": 1,
+            "questionParts": {
+                "before": "食わせておいて",
+                "highlight": "サテ",
+                "after": "と言い。"
+            },
+            "answer": "扨",
+            "explanation": "#＝偖、扠<br>ところで。話題を改めるときの接続詞。〈漢字ペディア〉<br>★「扠(ｻ)」の字形の変化したものという。"
+        },
+        {
+            "id": "C0014",
+            "level": 1,
+            "questionParts": {
+                "before": "種種様様の口を",
+                "highlight": "ムシ",
+                "after": "りかける。"
+            },
+            "answer": "挘、毟",
+            "explanation": "1.つかんだりつまんだりして引き抜く。<br>2.肉や魚などの身をほぐす。<br>3.おどして、財産などをすべて奪いとる。<br>4.綿などをちぎってふっくらとさせる。〈大辞泉〉<br>★「挘」は、手で、力ずくで少なくすることを表す国字。<br>★「毟」は、毛を少なくすることを表す国字。"
+        },
+        {
+            "id": "C0015",
+            "level": 1,
+            "questionParts": {
+                "before": "飛彈の工、和泉の",
+                "highlight": "ソマ",
+                "after": "。"
+            },
+            "answer": "杣",
+            "explanation": "1.木材を切りだす山。<br>2.山から切りだした木。〈漢字ペディア〉<br>★木をとる山を表す字。"
+        },
+        {
+            "id": "C0016",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "マス",
+                "after": "で量って箕でこぼす。"
+            },
+            "answer": "枡、桝",
+            "explanation": "#＝升、斗、斛<br>容量をはかる正方形の器。また、そのような形をしたもの。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0017",
+            "level": 1,
+            "questionParts": {
+                "before": "紡いだ糸を",
+                "highlight": "カセ",
+                "after": "に巻き取る。"
+            },
+            "answer": "桛、綛",
+            "explanation": "つむぎ糸を巻きとる道具。〈漢字ペディア〉<br>★枷(ｶｾ)、械(ｶｾ)、校(ｶｾ)は、刑具の一種。"
+        },
+        {
+            "id": "C0018",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "シキミ",
+                "after": "を持って墓参する。"
+            },
+            "answer": "梻",
+            "explanation": "#＝樒(櫁)<br>モクレン科の常緑小高木。枝葉を仏前にそなえる。〈漢字ペディア〉<br>★仏(佛)にそなえる木の意を表した字。<br>★梱(ｼｷﾐ)、壼(ｼｷﾐ)は、門の内外を区画するために、門柱の間に敷く横木。<br>★軾(ｼｷﾐ)は、車の前部にある横木。"
+        },
+        {
+            "id": "C0019",
+            "level": 1,
+            "questionParts": {
+                "before": "霧中の",
+                "highlight": "フモト",
+                "after": "に陋屋一軒。"
+            },
+            "answer": "梺",
+            "explanation": "#＝麓、阯<br>山のすそ。山の下のほうの部分。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0020",
+            "level": 1,
+            "questionParts": {
+                "before": "椿",
+                "highlight": "クヌギ",
+                "after": "に長木なし。"
+            },
+            "answer": "椚",
+            "explanation": "#＝栩、橡、櫟(檪)、櫪<br>ブナ科の落葉高木。〈漢字ペディア〉<br>★門は内外の区切りを表すので、別名「くのき」に合わせて「区(門)の木」として作った国字。"
+        },
+        {
+            "id": "C0021",
+            "level": 1,
+            "questionParts": {
+                "before": "冷水を",
+                "highlight": "ハンゾウ",
+                "after": "に汲む。"
+            },
+            "answer": "楾",
+            "explanation": "#＝半挿<br>水つぎの道具の一種。また、耳のついた小さなたらい。〈漢字ペディア〉<br>★胴に水を通す柄(ｴ)が挿しこんであることから。"
+        },
+        {
+            "id": "C0022",
+            "level": 1,
+            "questionParts": {
+                "before": "薄鈍の紙にて、",
+                "highlight": "ムロ",
+                "after": "の枝につけ給へり。"
+            },
+            "answer": "榁",
+            "explanation": "ヒノキ科の常緑小高木ネズ(杜松)の古名。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0023",
+            "level": 1,
+            "questionParts": {
+                "before": "粗壁の中に",
+                "highlight": "コマイ",
+                "after": "竹が覗く。"
+            },
+            "answer": "榀",
+            "explanation": "#＝木舞<br>屋根や壁などの下地に組む細い竹。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0024",
+            "level": 1,
+            "questionParts": {
+                "before": "二十の",
+                "highlight": "オオヅツ",
+                "after": "を積む艦船。"
+            },
+            "answer": "熕",
+            "explanation": "#＝大筒<br>大きな弾丸を発射する火器。大砲。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0025",
+            "level": 1,
+            "questionParts": {
+                "before": "砲",
+                "highlight": "コウ",
+                "after": "の射撃を防ぐべし。"
+            },
+            "answer": "熕",
+            "explanation": "★砲熕(ﾎｳｺｳ)･･･大砲。おおづつ。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0026",
+            "level": 1,
+            "questionParts": {
+                "before": "炬",
+                "highlight": "タツ",
+                "after": "で河豚汁。"
+            },
+            "answer": "燵",
+            "explanation": "★炬燵(ｺﾀﾂ)･･･暖房器具の一つ。炭火などの熱源の上にやぐらをかぶせ、上を布団でおおったもの。＝火燵(ｺﾀﾂ)〈漢字ペディア〉"
+        },
+        {
+            "id": "C0027",
+            "level": 1,
+            "questionParts": {
+                "before": "入港時に",
+                "highlight": "トン",
+                "after": "税を徴収する。"
+            },
+            "answer": "瓲、噸",
+            "explanation": "#＝屯<br>重量の単位。1000キログラム。英語の音訳。t。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0028",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "キログラム",
+                "after": "。"
+            },
+            "answer": "瓩",
+            "explanation": "重さの単位。1000グラム。kg。〈漢字ペディア〉<br>★「千グラム(瓦)」の意を表す字。"
+        },
+        {
+            "id": "C0029",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "ヘクトグラム",
+                "after": "。"
+            },
+            "answer": "瓸",
+            "explanation": "重さの単位。100グラム。hg。〈漢字ペディア〉<br>★「百瓦(グラム)」の意。"
+        },
+        {
+            "id": "C0030",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "デカグラム",
+                "after": "。"
+            },
+            "answer": "瓧",
+            "explanation": "重さの単位。10グラム。dag。〈漢字ペディア〉<br>★十瓦(グラム)の意を表す字。"
+        },
+        {
+            "id": "C0031",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "デシグラム",
+                "after": "。"
+            },
+            "answer": "瓰",
+            "explanation": "重さの単位。10分の1グラム。dg。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0032",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "センチグラム",
+                "after": "。"
+            },
+            "answer": "甅",
+            "explanation": "重さの単位。1グラムの100分の1。cg。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0033",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "ミリグラム",
+                "after": "。"
+            },
+            "answer": "瓱",
+            "explanation": "重さの単位。1000分の1グラム。mg。〈漢字ペディア〉<br>★「毛」は一〇〇〇分の一、「瓦」はグラムの意。"
+        },
+        {
+            "id": "C0034",
+            "level": 1,
+            "questionParts": {
+                "before": "気を揉み大根",
+                "highlight": "シャク",
+                "after": "の種。"
+            },
+            "answer": "癪",
+            "explanation": "1.さしこみ。胸や腹が急に痛み、けいれんを起こす病気。<br>2.かんしゃく(癇癪)。腹がたつこと。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0035",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "キロリットル",
+                "after": "。"
+            },
+            "answer": "竏",
+            "explanation": "容量の単位。1000リットル。kl。〈漢字ペディア〉<br>★「千リットル(立)」の意を表す字。"
+        },
+        {
+            "id": "C0036",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "ヘクトリットル",
+                "after": "。"
+            },
+            "answer": "竡",
+            "explanation": "容量の単位。100リットル。hl。〈漢字ペディア〉<br>★「百立(リットル)」の意。"
+        },
+        {
+            "id": "C0037",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "デカリットル",
+                "after": "。"
+            },
+            "answer": "竍",
+            "explanation": "容量の単位。10リットル。dal。〈漢字ペディア〉<br>★十立(リットル)の意を表す字。"
+        },
+        {
+            "id": "C0038",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "デシリットル",
+                "after": "。"
+            },
+            "answer": "竕",
+            "explanation": "容量の単位。10分の1リットル。dl。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0039",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "センチリットル",
+                "after": "。"
+            },
+            "answer": "竰",
+            "explanation": "容量の単位。1リットルの100分の1。cl。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0040",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "ミリリットル",
+                "after": "。"
+            },
+            "answer": "竓",
+            "explanation": "要領の単位。1000分の1リットル。ml。〈漢字ペディア〉<br>★「毛」は一〇〇〇分の一、「立」はリットルの意。"
+        },
+        {
+            "id": "C0041",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "ササラ",
+                "after": "を擦り、鞨鼓を打つ。"
+            },
+            "answer": "簓",
+            "explanation": "1.田楽などに用いる民俗楽器の一種。竹を細かく裂いて束ねたもので、棒とすり合わせて音を出す。<br>2.竹を裂いて束ねた、洗い用具。＝筅〈漢字ペディア〉"
+        },
+        {
+            "id": "C0042",
+            "level": 1,
+            "questionParts": {
+                "before": "鮠や鯉などが獲れる",
+                "highlight": "ヤナ",
+                "after": "場。"
+            },
+            "answer": "簗",
+            "explanation": "#＝梁<br>川の中に木や竹を並べて水をせきとめ、魚を捕らえるしかけ。〈漢字ペディア〉<br>★「竹冠＋梁(ﾊｼ)」で、竹でつくったやなの意の国字。"
+        },
+        {
+            "id": "C0043",
+            "level": 1,
+            "questionParts": {
+                "before": "小袖の女性が",
+                "highlight": "シンシ",
+                "after": "で布を張る。"
+            },
+            "answer": "籡",
+            "explanation": "#＝伸子<br>布の染色や洗い張りのときに用いる両端に針のついた竹製のくし。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0044",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "ヌカミソ",
+                "after": "が腐る。"
+            },
+            "answer": "粏",
+            "explanation": "#＝糠味噌"
+        },
+        {
+            "id": "C0045",
+            "level": 1,
+            "questionParts": {
+                "before": "糂",
+                "highlight": "ダ",
+                "after": "瓶一つ持たない。"
+            },
+            "answer": "粏",
+            "explanation": "★糂粏(ｼﾞﾝﾀﾞ)･･･1.ぬかみそ。じんだみそ。また、五斗味噌(ｺﾞﾄﾐｿ)のこと。<br>2.枝豆をゆでてすりつぶし、塩･酒･砂糖などで調味したもの。餅にからめたり、和(ｱ)え衣にしたりする。ずんだ。〈大辞泉〉"
+        },
+        {
+            "id": "C0046",
+            "level": 1,
+            "questionParts": {
+                "before": "鮭の切り身に塩",
+                "highlight": "コウジ",
+                "after": "を塗す。"
+            },
+            "answer": "糀",
+            "explanation": "#＝麴(麹)、糱、酵<br>米･麦･大豆などを蒸して、こうじかびを繁殖させたもの。醸造に用いる。〈漢字ペディア〉<br>★米に花がさいたようにはえるかびの意を表す国字。"
+        },
+        {
+            "id": "C0047",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "ヘクトメートル",
+                "after": "。"
+            },
+            "answer": "粨",
+            "explanation": "長さの単位。100メートル。hm。〈漢字ペディア〉<br>★「百米(メートル)」の意。"
+        },
+        {
+            "id": "C0048",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "デカメートル",
+                "after": "。"
+            },
+            "answer": "籵",
+            "explanation": "長さの単位。10メートル。dam。〈漢字ペディア〉<br>★十米(メートル)の意を表す字。"
+        },
+        {
+            "id": "C0049",
+            "level": 1,
+            "questionParts": {
+                "before": "紺の",
+                "highlight": "カスリ",
+                "after": "に書生下駄。"
+            },
+            "answer": "綛、纃",
+            "explanation": "#＝絣(絣)、飛白<br>ところどころかすったような模様をおいた織物。また、その模様。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0050",
+            "level": 1,
+            "questionParts": {
+                "before": "黒糸で",
+                "highlight": "オド",
+                "after": "した鎧。"
+            },
+            "answer": "縅",
+            "explanation": "鎧(ﾖﾛｲ)の札(ｻﾈ)を糸または革でつづり合わせる。〈大辞泉〉"
+        },
+        {
+            "id": "C0051",
+            "level": 1,
+            "questionParts": {
+                "before": "萌黄",
+                "highlight": "オドシ",
+                "after": "の鎧。"
+            },
+            "answer": "縅",
+            "explanation": "よろいの札(ｻﾈ)(革板の小片)を糸や細い革ひもでつなぎ合わせること。また、そのもの。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0052",
+            "level": 1,
+            "questionParts": {
+                "before": "開通の本尊、後光は",
+                "highlight": "ウン",
+                "after": "繝彩色也。"
+            },
+            "answer": "繧",
+            "explanation": "★繧繝(ｳﾝｹﾞﾝ)･･･同系統の色を濃いものからしだいに淡いものへ並べていく彩色法。また、そのような紋様の織物。＝暈繝〈漢字ペディア〉"
+        },
+        {
+            "id": "C0053",
+            "level": 1,
+            "questionParts": {
+                "before": "黄",
+                "highlight": "コウ",
+                "after": "纈の林。"
+            },
+            "answer": "纐",
+            "explanation": "★纐纈(ｺｳｹﾁ/ｺｳｹﾂ)･･･奈良時代に行われた絞り染めの名で、布を縫いしばって染料にひたす染色技法。インドから中国を経て日本に伝来した。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0054",
+            "level": 1,
+            "questionParts": {
+                "before": "有松",
+                "highlight": "シボ",
+                "after": "りの浴衣。"
+            },
+            "answer": "纐",
+            "explanation": "#＝絞り<br>「絞り染め」の略。〈大辞泉〉"
+        },
+        {
+            "id": "C0055",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "シカ",
+                "after": "と相違ありません。"
+            },
+            "answer": "聢",
+            "explanation": "#＝確と<br>1.はっきりとしているさま。確実でまちがいのないさま。たしかに。<br>2.かたく、しっかりと。また、十分に。完全に。しっかと。<br>3.すきまなく。びっしりと。〈大辞泉〉<br>★耳で定かにきくことを表す字。"
+        },
+        {
+            "id": "C0056",
+            "level": 1,
+            "questionParts": {
+                "before": "家畜に潜む",
+                "highlight": "スイ",
+                "after": "蛭。"
+            },
+            "answer": "膵",
+            "explanation": "★膵蛭(ｽｲﾃﾂ)･･･キュウチュウ目の寄生虫。ウシ･ブタ･ヒツジなどの膵管･胆管に寄生する。人体にも入る。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0057",
+            "level": 1,
+            "questionParts": {
+                "before": "辻待ちの",
+                "highlight": "ソリ",
+                "after": "の馭者が佇む。"
+            },
+            "answer": "艝、轌",
+            "explanation": "#＝橇、毳<br>雪や氷の上を滑らせて、人や物を運ぶ乗り物。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0058",
+            "level": 1,
+            "questionParts": {
+                "before": "苧",
+                "highlight": "スサ",
+                "after": "を壁に塗り込む。"
+            },
+            "answer": "苆",
+            "explanation": "#＝寸莎<br>つた。ひび割れを防ぐため、切り刻んで壁土に混ぜるわら･紙･麻など。かべすさ。〈漢字ペディア〉<br>★切った草の意を表した字。"
+        },
+        {
+            "id": "C0059",
+            "level": 1,
+            "questionParts": {
+                "before": "岩石峭立せる峻嶮の",
+                "highlight": "ヤチ",
+                "after": "。"
+            },
+            "answer": "萢",
+            "explanation": "#＝谷地、野地、谷<br>沢などの湿地。やつ。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0060",
+            "level": 1,
+            "questionParts": {
+                "before": "幃の中に比翼",
+                "highlight": "ゴザ",
+                "after": "を敷く。"
+            },
+            "answer": "蓙",
+            "explanation": "#＝茣蓙<br>イグサの茎などを編んで作ったむしろにへりをつけたしきもの。ござむしろ。うすべり。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0061",
+            "level": 1,
+            "questionParts": {
+                "before": "磯の",
+                "highlight": "アワビ",
+                "after": "の片思い。"
+            },
+            "answer": "蚫",
+            "explanation": "#＝鮑、鰒<br>ミミガイ科の巻貝。食用。〈漢字ペディア〉<br>★昔は動物すべてを「虫」としたことから、虫偏がついている。「蛤(はまぐり)」「蛙(かえる)」などもその例。"
+        },
+        {
+            "id": "C0062",
+            "level": 1,
+            "questionParts": {
+                "before": "紫の銘仙、",
+                "highlight": "エビ",
+                "after": "茶の袴。"
+            },
+            "answer": "蛯",
+            "explanation": "#＝蝦、鰕、海老<br>エビ科の節足動物。〈漢字ペディア〉<br>★老人の腰のように曲がっていることから、この字ができた。"
+        },
+        {
+            "id": "C0063",
+            "level": 1,
+            "questionParts": {
+                "before": "皇軍に寄生する",
+                "highlight": "ダニ",
+                "after": "共。"
+            },
+            "answer": "蟎",
+            "explanation": "#＝壁蝨<br>1.ダニ目に属する節足動物の総称。<br>2.働かずに他人にたかって生活する、きらわれ者。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0064",
+            "level": 1,
+            "questionParts": {
+                "before": "白い",
+                "highlight": "ホロ",
+                "after": "を靡かせる騎馬。"
+            },
+            "answer": "袰",
+            "explanation": "#＝母衣、幌<br>昔、よろいの背につけて矢を防いだり装飾として用いたりした布製の袋状のもの。〈漢字ペディア〉<br>★母衣を一つにした国字。"
+        },
+        {
+            "id": "C0065",
+            "level": 1,
+            "questionParts": {
+                "before": "石に",
+                "highlight": "カミシモ",
+                "after": "を着せたよう。"
+            },
+            "answer": "裃",
+            "explanation": "江戸時代の武士の礼服。〈漢字ペディア〉<br>★上下そろいの衣の意を表す字。"
+        },
+        {
+            "id": "C0066",
+            "level": 1,
+            "questionParts": {
+                "before": "成長に連れて着物の",
+                "highlight": "ユキ",
+                "after": "丈が短くなる。"
+            },
+            "answer": "裄",
+            "explanation": "ゆきたけ。衣服の背縫いから袖口(ｿﾃﾞｸﾞﾁ)までの長さ。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0067",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "ツマ",
+                "after": "を取る紅白粉の女。"
+            },
+            "answer": "褄",
+            "explanation": "着物の袵(ｵｸﾐ)のへりの部分。着物の裾(ｽｿ)の左右の両端。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0068",
+            "level": 1,
+            "questionParts": {
+                "before": "得意手は吊り出しや",
+                "highlight": "タスキ",
+                "after": "反り。"
+            },
+            "answer": "襷",
+            "explanation": "#＝手繈(手繦)<br>たもとや袖(ｿﾃﾞ)をたくしあげるひも。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0069",
+            "level": 1,
+            "questionParts": {
+                "before": "飽かぬは君の御",
+                "highlight": "ジョウ",
+                "after": "。"
+            },
+            "answer": "諚",
+            "explanation": "★御諚(ｺﾞｼﾞｮｳ)･･･貴人からの命令。また、お言葉。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0070",
+            "level": 1,
+            "questionParts": {
+                "before": "国の",
+                "highlight": "オキテ",
+                "after": "を遵守する。"
+            },
+            "answer": "諚",
+            "explanation": "#＝掟<br>1.取り決め。しきたり。多く、仲間内の決めごとをいう。<br>2.法律。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0071",
+            "level": 1,
+            "questionParts": {
+                "before": "太子様の",
+                "highlight": "オオ",
+                "after": "せの通りに。"
+            },
+            "answer": "諚",
+            "explanation": "#＝仰せ<br>目上の人の言いつけや命令。また、お言葉。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0072",
+            "level": 1,
+            "questionParts": {
+                "before": "我等は一代男、家を継ぐべき",
+                "highlight": "セガレ",
+                "after": "はなし。"
+            },
+            "answer": "躮",
+            "explanation": "#＝倅(伜)、悴(忰)<br>自分の息子の謙称。〈漢字ペディア〉<br>★自分の「分身」の意を表した字。"
+        },
+        {
+            "id": "C0073",
+            "level": 1,
+            "questionParts": {
+                "before": "無",
+                "highlight": "シツケ",
+                "after": "な言葉を弄する。"
+            },
+            "answer": "躾",
+            "explanation": "1.しつけ。身だしなみ。<br>2.しつける。礼儀作法を教えこむ。〈漢字ペディア〉<br>★身を美しくかざる意を表した字。"
+        },
+        {
+            "id": "C0074",
+            "level": 1,
+            "questionParts": {
+                "before": "弛まぬ努力が",
+                "highlight": "ヤガ",
+                "after": "て実を結ぶ。"
+            },
+            "answer": "軈",
+            "explanation": "まもなく。そのうち。かれこれ。〈漢字ペディア〉<br>★身をもってすぐに応(應)じる意を表す国字。"
+        },
+        {
+            "id": "C0075",
+            "level": 1,
+            "questionParts": {
+                "before": "明確で",
+                "highlight": "スベ",
+                "after": "りの良い言葉。"
+            },
+            "answer": "辷",
+            "explanation": "#＝滑る<br>1.なめらかに進む。<br>2.勢いをつけて進む。<br>3.ころびそうになる。<br>4.失敗する。〈漢字ペディア〉<br>★たいらなところ(一)を行くことを表す字。"
+        },
+        {
+            "id": "C0076",
+            "level": 1,
+            "questionParts": {
+                "before": "空が",
+                "highlight": "トテ",
+                "after": "も綺麗だ。"
+            },
+            "answer": "迚",
+            "explanation": "とうてい。どうやっても。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0077",
+            "level": 1,
+            "questionParts": {
+                "before": "写真を撮る",
+                "highlight": "トテ",
+                "after": "高い所へ上った。"
+            },
+            "answer": "迚",
+            "explanation": "といって。さりながら。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0078",
+            "level": 1,
+            "questionParts": {
+                "before": "峻峭の",
+                "highlight": "サコ",
+                "after": "に遯世する。"
+            },
+            "answer": "逧",
+            "explanation": "山と山の間の小さな谷。はざま。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0079",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "アッパレ",
+                "after": "人間の亀鑑とすべき言行。"
+            },
+            "answer": "遖",
+            "explanation": "#＝天晴れ<br>えらい。みごとだ。りっぱな行動や態度をほめるときの語。〈漢字ペディア〉<br>★感動の気持ちを表す「あはれ」の転。「遖」は、南へ行くと天が晴れて明るく輝いている意の「天晴れ」を表した国字。"
+        },
+        {
+            "id": "C0080",
+            "level": 1,
+            "questionParts": {
+                "before": "金銀延ばして貧の",
+                "highlight": "カザリ",
+                "after": "職。"
+            },
+            "answer": "錺",
+            "explanation": "金属でかざる。〈漢字ペディア〉<br>★錺職(ｶｻﾞﾘｼｮｸ)･･･金属のかんざしや金具などの細かい細工をする職人。錺師。＝飾職〈漢字ペディア〉"
+        },
+        {
+            "id": "C0081",
+            "level": 1,
+            "questionParts": {
+                "before": "焼深くして荒",
+                "highlight": "ニエ",
+                "after": "のつきが烈しい。"
+            },
+            "answer": "錵",
+            "explanation": "#＝沸<br>焼きによって刀身にできる模様。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0082",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "ブリキ",
+                "after": "製の玩具。"
+            },
+            "answer": "錻",
+            "explanation": "#＝鉄葉<br>錫(ｽｽﾞ)をめっきした薄い鉄板。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0083",
+            "level": 1,
+            "questionParts": {
+                "before": "子は夫婦の中の",
+                "highlight": "カスガイ",
+                "after": "。"
+            },
+            "answer": "鎹",
+            "explanation": "材木などの合わせ目をつなぐための、両端の曲がったくぎ。転じて、二つのものをつなぐはたらきをするもの。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0084",
+            "level": 1,
+            "questionParts": {
+                "before": "天の",
+                "highlight": "サカホコ",
+                "after": "。"
+            },
+            "answer": "𫒼、金逆",
+            "explanation": "#＝逆鉾、逆矛<br>逆さのほこ。〈漢字ペディア〉<br>★⿰金逆。𫒼(Unicode:2b4bc)"
+        },
+        {
+            "id": "C0085",
+            "level": 1,
+            "questionParts": {
+                "before": "切羽",
+                "highlight": "ハバキ",
+                "after": "する。"
+            },
+            "answer": "鎺",
+            "explanation": "刀剣などのもとにはめる金具。〈漢字ペディア〉<br>★行纏(ﾊﾊﾞｷ)、脛巾(ﾊﾊﾞｷ)、脛衣(ﾊﾊﾞｷ)は、今でいう脚絆。"
+        },
+        {
+            "id": "C0086",
+            "level": 1,
+            "questionParts": {
+                "before": "一向に差",
+                "highlight": "ツカ",
+                "after": "えない。"
+            },
+            "answer": "閊",
+            "explanation": "#＝支える<br>とどこおる。さしさわる。つまる。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0087",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "トモ",
+                "after": "絵は御家の秘紋。"
+            },
+            "answer": "鞆",
+            "explanation": "弓を射るとき、弦が手首を打たないように、左腕につける革製の道具。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0088",
+            "level": 1,
+            "questionParts": {
+                "before": "白足袋の",
+                "highlight": "コハゼ",
+                "after": "を解く。"
+            },
+            "answer": "鞐",
+            "explanation": "#＝小鉤(小鈎)<br>書物の帙(ﾁﾂ:書物を保護するためのおおい)や足袋(ﾀﾋﾞ)･脚絆(ｷｬﾊﾝ)などの合わせ目をとめる爪(ﾂﾒ)形の留め具。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0089",
+            "level": 1,
+            "questionParts": {
+                "before": "赤城",
+                "highlight": "オロシ",
+                "after": "が身に沁みる。"
+            },
+            "answer": "颪",
+            "explanation": "山からふきおろす風。〈漢字ペディア〉<br>★「ふき下ろす風」の意からできた字。"
+        },
+        {
+            "id": "C0090",
+            "level": 1,
+            "questionParts": {
+                "before": "鍋焼",
+                "highlight": "ウン",
+                "after": "飩で身も心も綻ぶ。"
+            },
+            "answer": "饂",
+            "explanation": "小麦粉をこねて薄くのばし、細く切ったものをゆでた食品。〈漢字ペディア〉<br>★「饂飩(ｳﾄﾞﾝ)」とも読む。"
+        },
+        {
+            "id": "C0091",
+            "level": 1,
+            "questionParts": {
+                "before": "筌や",
+                "highlight": "エリ",
+                "after": "は漁具の一つ。"
+            },
+            "answer": "魞",
+            "explanation": "漁具の一つ。竹簀(ﾀｹｽ)を川や湖の魚の通る所にしかけて魚を導き入れ、捕らえる装置。〈漢字ペディア〉<br>★魚が入ることから、この字ができた。"
+        },
+        {
+            "id": "C0092",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "ナマズ",
+                "after": "に瓢簞。"
+            },
+            "answer": "魸、鯰",
+            "explanation": "ナマズ科の淡水魚。池や沼にすむ。形は平たくてうろこがない。口に二対のひげがある。食用。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0093",
+            "level": 1,
+            "questionParts": {
+                "before": "賢し",
+                "highlight": "カジカ",
+                "after": "陸さ上がる。"
+            },
+            "answer": "鮖",
+            "explanation": "#＝鰍、杜父魚<br>〈漢字ペディア〉<br>★石の多い所にすむ意を表している字。"
+        },
+        {
+            "id": "C0094",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "コノシロ",
+                "after": "の昆布巻き。"
+            },
+            "answer": "鮗",
+            "explanation": "ニシン科の海魚。紡錘(ﾎﾞｳｽｲ)形で左右に平たく、背びれの後端が長い。食用。〈漢字ペディア〉<br>★「冬にとれる魚」の意を表す字。"
+        },
+        {
+            "id": "C0095",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "イワナ",
+                "after": "は痔の薬。"
+            },
+            "answer": "鮇",
+            "explanation": "#＝岩魚、嘉魚<br>サケ科の淡水魚。形はマスに似て細長い。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0096",
+            "level": 1,
+            "questionParts": {
+                "before": "鯨の尾にならんより",
+                "highlight": "イサザ",
+                "after": "の頭になれ。"
+            },
+            "answer": "𩶗、魚尓、魚尔",
+            "explanation": "ハゼ科の淡水魚。琵琶湖特産。〈漢字ペディア〉<br>★⿰魚尓⿰魚尔。𩶗(Unicode:29d97)<br>★漢検の書体では、右の「尓」の形は、「欠」の人部を「小」に変えた形で、2画目は下へ撥(ﾊ)ねている。"
+        },
+        {
+            "id": "C0097",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "アンコウ",
+                "after": "が粕に酔ったよう。"
+            },
+            "answer": "鮟鱇",
+            "explanation": "アンコウ科の海魚の総称。沿岸の海底にすむ。全長一(メートル)にもおよび、大きな頭と大きく開く口をもつ。前頭部に小魚をおびきよせるための突起がある。食用。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0098",
+            "level": 1,
+            "questionParts": {
+                "before": "暗い顔をした",
+                "highlight": "ゴリ",
+                "after": "のような男。"
+            },
+            "answer": "鮴",
+            "explanation": "#＝石伏魚<br>カジカ･ヨシノボリ･チチブなど小形の淡水魚の別称。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0099",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "コチ",
+                "after": "の頭には姑の知らぬ身がある。"
+            },
+            "answer": "鮲、鯒",
+            "explanation": "#＝牛尾魚<br>コチ科の海魚。暖海の砂底にすむ。上下に平たく、頭と口は大きく、尾は細い。食用。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0100",
+            "level": 1,
+            "questionParts": {
+                "before": "面白や",
+                "highlight": "マテ",
+                "after": "の居る穴居らぬ穴。"
+            },
+            "answer": "鮲",
+            "explanation": "#＝蟶<br>マテガイの別称。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0101",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "オオボラ",
+                "after": "の卵巣から鱲子を作る。"
+            },
+            "answer": "鮱",
+            "explanation": "ボラ科の海魚。ボラの成長しきったもの。〈漢字ペディア〉<br>★ボラの老成したものの意味で「老」がついている。"
+        },
+        {
+            "id": "C0102",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "ウグイ",
+                "after": "の鮨を嗜む。"
+            },
+            "answer": "鯎、鯏",
+            "explanation": "#＝石斑魚<br>コイ科の淡水魚。川や湖にすむが、海へ下るものもある。体は細長く、背は暗緑褐色で、腹は銀白色。繁殖期には腹部に三本の赤い縦じまが現れる。アカハラ。ハヤ。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0103",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "アサリ",
+                "after": "蛤が糊売りをする。"
+            },
+            "answer": "鯏",
+            "explanation": "#＝蜊、浅蜊、蛤仔<br>マルスダレガイ科の二枚貝。浅海の砂にすむ。殻の表面に布目状のすじがある。食用。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0104",
+            "level": 1,
+            "questionParts": {
+                "before": "乾物屋で",
+                "highlight": "カズノコ",
+                "after": "を購入する。"
+            },
+            "answer": "鯑",
+            "explanation": "#＝数の子<br>ニシンの卵を塩漬け、または乾燥させた食品。〈漢字ペディア〉<br>★「かずのこ」は鰊(かど)の子の意。"
+        },
+        {
+            "id": "C0105",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "スバシリ",
+                "after": "は鯔の幼魚。"
+            },
+            "answer": "鯐",
+            "explanation": "#＝州走、洲走<br>鯔(ﾎﾞﾗ)の幼魚。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0106",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "ドジョウ",
+                "after": "の地団駄。"
+            },
+            "answer": "鯲",
+            "explanation": "#＝鰌、鰍、泥鰌<br>ドジョウ科の淡水魚。池沼や水田などにすむ。全体にぬめりがあり、体長は約一五(センチメートル)で、細長い円筒形をしている。五対の口ひげがある。食用。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0107",
+            "level": 1,
+            "questionParts": {
+                "before": "金の",
+                "highlight": "シャチホコ",
+                "after": "雨曝し。"
+            },
+            "answer": "鯱",
+            "explanation": "トラの頭に魚の体をもつ想像上の動物。また、それをかたどった城郭などの大棟(ｵｵﾑﾈ)の両端につける魔除(ﾖ)け用の飾りがわら。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0108",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "シャチ",
+                "after": "は逆叉とも言う。"
+            },
+            "answer": "鯱",
+            "explanation": "イルカ科の哺乳(ホニュウ)動物。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0109",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "ムロアジ",
+                "after": "の干物。"
+            },
+            "answer": "鰘",
+            "explanation": "#＝室鰺(室鯵)<br>アジ科の海魚。本州中部以南の暖海にすむ。背は青く、腹は銀白色。多くは「くさや」などの干物にして食べる。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0110",
+            "level": 1,
+            "questionParts": {
+                "before": "氷上の",
+                "highlight": "ワカサギ",
+                "after": "釣り。"
+            },
+            "answer": "鰙",
+            "explanation": "#＝若鷺、公魚<br>キュウリウオ科の淡水魚。全長約一五(センチメートル)。背は淡青色で、腹は銀白色。結氷した湖での穴釣りは有名。食用。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0111",
+            "level": 1,
+            "questionParts": {
+                "before": "なまぐさし小水葱が上の",
+                "highlight": "ハエ",
+                "after": "の腸。"
+            },
+            "answer": "鰙",
+            "explanation": "#＝鮠<br>コイ科の淡水魚。おもに関東ではウグイ、関西ではオイカワの別称に用いる。〈漢字ペディア〉<br>★「はや」とも読む。"
+        },
+        {
+            "id": "C0112",
+            "level": 1,
+            "questionParts": {
+                "before": "朝餉は",
+                "highlight": "ハヤ",
+                "after": "の焼き魚。"
+            },
+            "answer": "鰙",
+            "explanation": "#＝鮠<br>コイ科の淡水魚。おもに関東ではウグイ、関西ではオイカワの別称に用いる。〈漢字ペディア〉<br>★「はえ」とも読む。"
+        },
+        {
+            "id": "C0113",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "ハラカ",
+                "after": "釣る大曲崎のうけ縄に。"
+            },
+            "answer": "鰚",
+            "explanation": "#＝腹赤<br>鮸(ﾆﾍﾞ)、または鱒(ﾏｽ)の別称という。〈漢字ペディア〉<br>★腹が赤いことから、「はらあか」が「はらか」に転じたもの。"
+        },
+        {
+            "id": "C0114",
+            "level": 1,
+            "questionParts": {
+                "before": "鰯と",
+                "highlight": "ハタハタ",
+                "after": "の塩汁鍋。"
+            },
+            "answer": "鰰、鱩",
+            "explanation": "#＝燭魚、雷魚<br>ハタハタ科の海魚。北日本の深海にすむ。口が大きく、うろこがない。初冬、産卵のため沿岸に押し寄せるところを漁獲。食用。カミナリウオ。〈漢字ペディア〉<br>★かみなり(神鳴り･雷)がなるとき、よくとれる魚の意を表す国字。"
+        },
+        {
+            "id": "C0115",
+            "level": 1,
+            "questionParts": {
+                "before": "六月の",
+                "highlight": "キス",
+                "after": "は絵に描いたのでも食え。"
+            },
+            "answer": "鱚",
+            "explanation": "キス科の海魚。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0116",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "エソ",
+                "after": "無くば鯛。"
+            },
+            "answer": "鱛",
+            "explanation": "#＝狗母魚<br>エソ科の海魚の総称。ふつうエソを指す。南日本の浅海に分布。体は細長く、鋭い歯がある。背面は黄褐色。上等なかまぼこの原料。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0117",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "アオサバ",
+                "after": "が空に浮かんだような顔。"
+            },
+            "answer": "𬵪、魚惠",
+            "explanation": "サバの別称。〈漢字ペディア〉<br>★⿰魚惠。𬵪(Unicode:2cd6a)"
+        },
+        {
+            "id": "C0118",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "ニオ",
+                "after": "の浮き巣。"
+            },
+            "answer": "鳰",
+            "explanation": "かいつぶり。水鳥の一種。〈漢字ペディア〉<br>★水に入る鳥の意を表す字。"
+        },
+        {
+            "id": "C0119",
+            "level": 1,
+            "questionParts": {
+                "before": "雲に梯、霞に",
+                "highlight": "チドリ",
+                "after": "。"
+            },
+            "answer": "鵆",
+            "explanation": "#＝千鳥<br>チドリ科の鳥の総称。海岸や水辺にすむ。多くは渡り鳥。足の指は三本で、左右に交差させるように歩く。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0120",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "トキ",
+                "after": "色の美しい氷肌。"
+            },
+            "answer": "鵇",
+            "explanation": "#＝鴇、鴾、朱鷺、桃花鳥<br>トキ科の鳥。東アジアに分布。水田や湿地にすむ。全身白色で、翼と尾羽が淡紅色。顔とあしが赤く、頭に冠羽がある。くちばしは黒くて長く、下に曲がる。特別天然記念物。国際保護鳥。日本では野生のものは絶滅。〈漢字ペディア〉<br>★年を告げる鳥の意を表す国字。"
+        },
+        {
+            "id": "C0121",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "イカル",
+                "after": "来て起きよ佳き日ぞと鳴きにけり。"
+            },
+            "answer": "鵤",
+            "explanation": "#＝斑鳩<br>アトリ科の鳥。低山にすむ。体は灰色で、頭・翼・尾羽は黒色。くちばしは太くて黄色。澄んだ声で鳴く。サンコウチョウ。〈漢字ペディア〉<br>★「いかるが」とも読む。"
+        },
+        {
+            "id": "C0122",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "カケス",
+                "after": "の埋栗。"
+            },
+            "answer": "鵥",
+            "explanation": "#＝懸巣<br>カラス科の鳥。他の鳥の鳴き声をよくまねる。〈漢字ペディア〉<br>★巣を杯の形に懸けるように作ることから「かけす」の名がある。また、カシの実を好むので「樫鳥(ｶｼﾄﾞﾘ)」ともいう。"
+        },
+        {
+            "id": "C0123",
+            "level": 1,
+            "questionParts": {
+                "before": "する事なす事",
+                "highlight": "イスカ",
+                "after": "の嘴。"
+            },
+            "answer": "鶍",
+            "explanation": "#＝交喙<br>アトリ科の鳥。北半球の北部にすみ、秋、日本に渡来する。雄は赤褐色で、雌は黄緑色。くちばしがねじれて上下に交差しており、松の実などを食べるのに適する。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0124",
+            "level": 1,
+            "questionParts": {
+                "before": "",
+                "highlight": "キクイタダキ",
+                "after": "は日本最小の鳥。"
+            },
+            "answer": "鶎",
+            "explanation": "#＝菊戴<br>ヒタキ科の小鳥。亜高山帯の針葉樹林にすみ、冬は平地に移動。背面は暗緑色。雄の頭上に、キクの花に似た黄色の羽毛がある。〈漢字ペディア〉"
+        },
+        {
+            "id": "C0125",
+            "level": 1,
+            "questionParts": {
+                "before": "螻蛄腹立つれば",
+                "highlight": "ツグミ",
+                "after": "喜ぶ。"
+            },
+            "answer": "鶫",
+            "explanation": "#＝鶇<br>ヒタキ科の鳥。晩秋、シベリアなどから大群で日本に渡来。背面は黒褐色、腹面や顔は黄白色で黒い斑点(ハンテン)がある。〈漢字ペディア〉<br>★「鶇」に似せて作った国字。<br>★「鶇」とは別字だが、同じようにツグミと読む。ツグミを書くとき国字指定の場合は「鶫」でなければならないので注意。「鶇」だとおそらく不正解。"
+        }
+    ]
+}
