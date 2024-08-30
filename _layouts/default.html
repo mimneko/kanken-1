@@ -27,13 +27,9 @@
                         <span class="site-name">みむねこのーと</span>
                     </a>
                 </div>
-                <nav class="nav-content">
-                    <ul class="nav-list">
-                        <li><a href="{{ site.mimnekonote_url }}/">ホーム</a></li>
-                        <li><a href="{{ site.mimnekonote_url }}/about/">このサイトについて</a></li>
-                        <li><a href="{{ site.mimnekonote_url }}/tags/">カテゴリ＆タグ</a></li>
-                    </ul>
-                </nav>
+                
+                {% include navigation.html %}
+                
             </div>
         </header>
         
@@ -58,13 +54,9 @@
         
         <footer>
             <div class="footer-content">
-                <nav class="nav-content">
-                    <ul class="nav-list">
-                        <li><a href="{{ site.mimnekonote_url }}/">ホーム</a></li>
-                        <li><a href="{{ site.mimnekonote_url }}/about/">このサイトについて</a></li>
-                        <li><a href="{{ site.mimnekonote_url }}/tags/">カテゴリ＆タグ</a></li>
-                    </ul>
-                </nav>
+                
+                {% include navigation.html %}
+                
                 <p class="copyright">Copyright &copy; 2023 - {{ "now" | date: "%Y" }} みむねこのーと.<br class="copyright-break"> All rights reserved.</p>
             </div>
         </footer>
