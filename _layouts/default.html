@@ -12,8 +12,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="preload" href="{{ site.baseurl }}/assets/css/styles.css" as="style">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
-    {% if page.custom %}
-        {{ page.custom | safe }}
+    {% if page.styles %}
+        {% for script in page.styles %}
+            <link rel="stylesheet" href="{{ site.baseurl }}/{{ style | safe }}">
+        {% endfor %}
+    {% endif %}
+    {% if page.customs %}
+        {% for script in page.customs %}
+            {{ custom | safe }}
+        {% endfor %}
     {% endif %}
 </head>
 <body>
@@ -63,9 +70,12 @@
         
     </div>
 
-    {% if page.script %}
-        <script src="{{ site.baseurl }}/assets/js/{{ page.script | safe }}.js"></script>
+    {% if page.scripts %}
+        {% for script in page.scripts %}
+            <script src="{{ site.baseurl }}/{{ script | safe }}"></script>
+        {% endfor %}
     {% endif %}
+
     
 </body>
 </html>
