@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">{{ page.title }}</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.mimnekonote_url }}/assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.mimnekonote_url }}/assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.mimnekonote_url }}/assets/icons/favicon-16x16.png">
+    <link rel="preload" href="{{ site.mimnekonote_url }}/assets/css/styles.css" as="style">
+    <link rel="stylesheet" href="{{ site.mimnekonote_url }}/assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    {% if site.styles %}
+        {% for style in site.styles %}
+            <link rel="stylesheet" href="{{ site.baseurl }}{{ style | safe }}">
+        {% endfor %}
+    {% endif %}
+    {% if page.styles %}
+        {% for style in page.styles %}
+            <link rel="stylesheet" href="{{ site.baseurl }}{{ style | safe }}">
+        {% endfor %}
+    {% endif %}
+    {% if site.customs %}
+        {% for custom in site.customs %}
+            {{ custom | safe }}
+        {% endfor %}
+    {% endif %}
+    {% if page.customs %}
+        {% for custom in page.customs %}
+            {{ custom | safe }}
+        {% endfor %}
+    {% endif %}
+</head>
+<body>
+    <div class="page-container">
+        
+        <header>
+            <div class="header-content">
+                <div class="logo">
+                    <a href="{{ site.mimnekonote_url }}/">
+                        <img src="{{ site.mimnekonote_url }}/assets/icons/mimneko-note-icon.png" alt="サイトアイコン" class="site-icon">
+                        <span class="site-name">{{ site.title }}</span>
+                    </a>
+                </div>
+                
+                {% include navigation.html %}
+                
+            </div>
+        </header>
+        
+        <main>
+            <div class="main-content">
+                <div class="main-wrap">
+                    <article>
+                        <div class="article-header">
+                            <h1 id="article-title">{{ page.title }}</h1>
+                            <div id="article-meta">
+                            </div>
+                        </div>
+                        <div class="article-body">
+            
+                            {{ content }}
+                          
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <div class="footer-content">
+                
+                {% include navigation.html %}
+                
+                <p class="copyright">Copyright &copy; {{ site.launch_date | date: "%Y" }} - {{ "now" | date: "%Y" }} {{ site.title }}.<br class="copyright-break"> All rights reserved.</p>
+            </div>
+        </footer>
+        
+    </div>
+
+    {% if site.scripts %}
+        {% for script in site.scripts %}
+            <script src="{{ site.baseurl }}{{ script | safe }}"></script>
+        {% endfor %}
+    {% endif %}
+    {% if page.scripts %}
+        {% for script in page.scripts %}
+            <script src="{{ site.baseurl }}{{ script | safe }}"></script>
+        {% endfor %}
+    {% endif %}
+    
+</body>
+</html>
