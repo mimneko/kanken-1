@@ -1,62 +1,23 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>漢検１級ランダム模試</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="https://mimneko.github.io/note/assets/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://mimneko.github.io/note/assets/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://mimneko.github.io/note/assets/icons/favicon-16x16.png">
-    <link rel="preload" href="https://mimneko.github.io/note/assets/css/styles.css" as="style">
-    <link rel="stylesheet" href="https://mimneko.github.io/note/assets/css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="preload" href="assets/css/styles.css" as="style">
-    <link rel="stylesheet" href="assets/css/styles.css">
-</head>
-<body>
-    <div class="page-container">
-        
-        {% include header.html %}
-        
-        <main>
-            <div class="main-content">
-                <div class="main-wrap">
-                    <article>
-                        <div class="article-header">
-                            <h1 id="article-title">漢検１級データ集</h1>
-                            <div id="article-meta">
-                            </div>
-                        </div>
-                        <div class="article-body">
-            
-                            <div id="toc">
-                                <p id="toc-title">目次</p>
-                                <ol id="toc-content">
-                                    
-                                    <li><a href="table/?csv=A1音読み">音読み</a></li>
-                                    <li><a href="table/?csv=B1訓読み">訓読み</a></li>
-                                    <li><a href="table/?csv=C2国字">国字</a></li>
-                                    <li><a href="table/?csv=D4四字熟語書き取り">四字熟語</a></li>
-                                    <li><a href="table/?csv=F5熟字訓当て字">熟字訓・当て字</a></li>
-                                    <li><a href="table/?csv=G6熟語一字訓">熟語と一字訓</a></li>
-                                    <li><a href="table/?csv=H7対義語類義語">対義語・類義語</a></li>
-                                    <li><a href="table/?csv=I8故事成語諺">故事・成語・諺</a></li>
-                                    
-                                    <li><a href="app/">アプリ</a></li>
-                                </ol>
-                            </div>
-                
-                            <p style="text-align: center; font-size: 2rem;">例：<ruby>懸崖撒手<rt>けんがいさっしゅ</rt></ruby></p>
+---
+layout: default
+title: 漢検１級データ集
+---
 
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </main>
+<div id="toc">
+    <p id="toc-title">目次</p>
+    <ol id="toc-content">
         
-        {% include footer.html %}
+        <li><a href="table/?csv=A1音読み">音読み</a></li>
+        <li><a href="table/?csv=B1訓読み">訓読み</a></li>
+        <li><a href="table/?csv=C2国字">国字</a></li>
+        <li><a href="table/?csv=D4四字熟語書き取り">四字熟語</a></li>
+        <li><a href="table/?csv=F5熟字訓当て字">熟字訓・当て字</a></li>
+        <li><a href="table/?csv=G6熟語一字訓">熟語と一字訓</a></li>
+        <li><a href="table/?csv=H7対義語類義語">対義語・類義語</a></li>
+        <li><a href="table/?csv=I8故事成語諺">故事・成語・諺</a></li>
         
-    </div>
+        <li><a href="app/">アプリ</a></li>
+    </ol>
+</div>
 
-</body>
-</html>
+<p style="text-align: center; font-size: 2rem;">例：<ruby>懸崖撒手<rt>けんがいさっしゅ</rt></ruby></p>
