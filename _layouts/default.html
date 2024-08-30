@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
     {% if page.styles %}
         {% for script in page.styles %}
-            <link rel="stylesheet" href="{{ site.baseurl }}/{{ style | safe }}">
+            <link rel="stylesheet" href="{{ site.baseurl }}{{ style | safe }}">
         {% endfor %}
     {% endif %}
     {% if page.customs %}
@@ -72,7 +72,7 @@
 
     {% if page.scripts %}
         {% for script in page.scripts %}
-            <script src="{{ site.baseurl }}/{{ script | safe }}"></script>
+            <script src="{{ site.baseurl }}{{ script | safe }}"></script>
         {% endfor %}
     {% endif %}
 
