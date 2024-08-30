@@ -13,12 +13,12 @@
     <link rel="preload" href="{{ site.baseurl }}/assets/css/styles.css" as="style">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
     {% if page.styles %}
-        {% for script in page.styles %}
+        {% for style in page.styles %}
             <link rel="stylesheet" href="{{ site.baseurl }}{{ style | safe }}">
         {% endfor %}
     {% endif %}
     {% if page.customs %}
-        {% for script in page.customs %}
+        {% for custom in page.customs %}
             {{ custom | safe }}
         {% endfor %}
     {% endif %}
