@@ -1,3 +1,5 @@
 # _config.yml
 baseurl: "https://mimneko.github.io/kanken-1"
 mimnekonote_url: "https://mimneko.github.io/note"
+
+styles: ["/assets/css/styles.css"]
