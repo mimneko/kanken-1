@@ -1,79 +1,18 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="page-title">Table</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="https://mimneko.github.io/note/assets/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://mimneko.github.io/note/assets/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://mimneko.github.io/note/assets/icons/favicon-16x16.png">
-    <link rel="preload" href="https://mimneko.github.io/note/assets/css/styles.css" as="style">
-    <link rel="stylesheet" href="https://mimneko.github.io/note/assets/css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="preload" href="../assets/css/styles.css" as="style">
-    <link rel="stylesheet" href="../assets/css/styles.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
-</head>
-<body>
-    <div class="page-container">
-        <header>
-            <div class="header-content">
-                <div class="logo">
-                    <a href="https://mimneko.github.io/note/">
-                        <img src="https://mimneko.github.io/note/assets/icons/mimneko-note-icon.png" alt="サイトアイコン" class="site-icon">
-                        <span class="site-name">みむねこのーと</span>
-                    </a>
-                </div>
-                <nav class="nav-content">
-                    <ul class="nav-list">
-                        <li><a href="https://mimneko.github.io/note/">ホーム</a></li>
-                        <li><a href="https://mimneko.github.io/note/about/">このサイトについて</a></li>
-                        <li><a href="https://mimneko.github.io/note/tags/">カテゴリ＆タグ</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <main>
-            <div class="main-content">
-                <div class="main-wrap">
-                    <article>
-                        <div class="article-header">
-                            <h1 id="article-title">Table</h1>
-                            <div id="article-meta">
-                            </div>
-                        </div>
-                        <div class="article-body">
-                            <!--
-                            <div id="state-controls">
-                                <select id="state-selector">
-                                    <option value="normal">通常</option>
-                                    <option value="perfect">満点</option>
-                                </select>
-                            </div>
-                            -->
-                            <table id="json-table">
-                                <!-- JSONデータがここに挿入されます -->
-                            </table>
+---
+layout: default
+title: 漢検１級ランダム模試
+script: 'table'
+custom: '<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>'
+---
 
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </main>
-        <footer>
-            <div class="footer-content">
-                <nav class="nav-content">
-                    <ul class="nav-list">
-                        <li><a href="https://mimneko.github.io/note/">ホーム</a></li>
-                        <li><a href="https://mimneko.github.io/note/about/">このサイトについて</a></li>
-                        <li><a href="https://mimneko.github.io/note/tags/">カテゴリ＆タグ</a></li>
-                    </ul>
-                </nav>
-                <p class="copyright">Copyright © 2023 - 2024 みむねこのーと.<br class="copyright-break"> All rights reserved.</p>
-            </div>
-        </footer>
-    </div>
-
-    <script src="../assets/js/table.js"></script>
-</body>
-</html>
+<!--
+<div id="state-controls">
+    <select id="state-selector">
+        <option value="normal">通常</option>
+        <option value="perfect">満点</option>
+    </select>
+</div>
+-->
+<table id="json-table">
+    <!-- JSONデータがここに挿入されます -->
+</table>
