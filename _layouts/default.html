@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="https://mimneko.github.io/note/assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://mimneko.github.io/note/assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://mimneko.github.io/note/assets/icons/favicon-16x16.png">
+    <link rel="preload" href="https://mimneko.github.io/note/assets/css/styles.css" as="style">
+    <link rel="stylesheet" href="https://mimneko.github.io/note/assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preload" href="assets/css/styles.css" as="style">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="page-container">
+        
+        {% include header.html %}
+        
+        <main>
+            <div class="main-content">
+                <div class="main-wrap">
+                    <article>
+                        <div class="article-header">
+                            <h1 id="article-title">{{ page.title }}</h1>
+                            <div id="article-meta">
+                            </div>
+                        </div>
+                        <div class="article-body">
+            
+                            {{ content }}
+                          
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </main>
+        
+        {% include footer.html %}
+        
+    </div>
+
+</body>
+</html>
