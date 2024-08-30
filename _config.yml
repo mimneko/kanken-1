@@ -5,4 +5,4 @@ styles: ["/assets/css/styles.css"]
 plugins:
   - jekyll-remote-theme
 #remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
-remote_theme: mimneko/Kiss-Jekyll-Lite@v0.1.0
+remote_theme: mimneko/Kiss-Jekyll-Lite@v0.2.0
