@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
+    <title id="page-title">{{ page.title }}</title>
     <link rel="apple-touch-icon" sizes="180x180" href="https://mimneko.github.io/note/assets/icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://mimneko.github.io/note/assets/icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://mimneko.github.io/note/assets/icons/favicon-16x16.png">
@@ -16,7 +16,23 @@
 <body>
     <div class="page-container">
         
-        {% include header.html %}
+        <header>
+            <div class="header-content">
+                <div class="logo">
+                    <a href="https://mimneko.github.io/note/">
+                        <img src="https://mimneko.github.io/note/assets/icons/mimneko-note-icon.png" alt="サイトアイコン" class="site-icon">
+                        <span class="site-name">みむねこのーと</span>
+                    </a>
+                </div>
+                <nav class="nav-content">
+                    <ul class="nav-list">
+                        <li><a href="https://mimneko.github.io/onote/">ホーム</a></li>
+                        <li><a href="https://mimneko.github.io/note/about/">このサイトについて</a></li>
+                        <li><a href="https://mimneko.github.io/note/tags/">カテゴリ＆タグ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
         
         <main>
             <div class="main-content">
@@ -37,7 +53,18 @@
             </div>
         </main>
         
-        {% include footer.html %}
+        <footer>
+            <div class="footer-content">
+                <nav class="nav-content">
+                    <ul class="nav-list">
+                        <li><a href="https://mimneko.github.io/note/">ホーム</a></li>
+                        <li><a href="https://mimneko.github.io/note/about/">このサイトについて</a></li>
+                        <li><a href="https://mimneko.github.io/note/tags/">カテゴリ＆タグ</a></li>
+                    </ul>
+                </nav>
+                <p class="copyright">Copyright © 2023 - 2024 みむねこのーと.<br class="copyright-break"> All rights reserved.</p>
+            </div>
+        </footer>
         
     </div>
 
