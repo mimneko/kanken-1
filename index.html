@@ -15,23 +15,9 @@
 </head>
 <body>
     <div class="page-container">
-        <header>
-            <div class="header-content">
-                <div class="logo">
-                    <a href="https://mimneko.github.io/note/">
-                        <img src="https://mimneko.github.io/note/assets/icons/mimneko-note-icon.png" alt="サイトアイコン" class="site-icon">
-                        <span class="site-name">みむねこのーと</span>
-                    </a>
-                </div>
-                <nav class="nav-content">
-                    <ul class="nav-list">
-                        <li><a href="https://mimneko.github.io/onote/">ホーム</a></li>
-                        <li><a href="https://mimneko.github.io/note/about/">このサイトについて</a></li>
-                        <li><a href="https://mimneko.github.io/note/tags/">カテゴリ＆タグ</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+        
+        {% include header.html %}
+        
         <main>
             <div class="main-content">
                 <div class="main-wrap">
@@ -67,18 +53,9 @@
                 </div>
             </div>
         </main>
-        <footer>
-            <div class="footer-content">
-                <nav class="nav-content">
-                    <ul class="nav-list">
-                        <li><a href="https://mimneko.github.io/note/">ホーム</a></li>
-                        <li><a href="https://mimneko.github.io/note/about/">このサイトについて</a></li>
-                        <li><a href="https://mimneko.github.io/note/tags/">カテゴリ＆タグ</a></li>
-                    </ul>
-                </nav>
-                <p class="copyright">Copyright © 2023 - 2024 みむねこのーと.<br class="copyright-break"> All rights reserved.</p>
-            </div>
-        </footer>
+        
+        {% include footer.html %}
+        
     </div>
 
 </body>
