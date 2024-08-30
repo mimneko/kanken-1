@@ -72,7 +72,7 @@
     </div>
 
     {% if page.script %}
-        <script src="{{ page.script | safe }}"></script>
+        <script src="{{ site.baseurl }}/assets/js/{{ page.script | safe }}.js"></script>
     {% endif %}
     
 </body>
