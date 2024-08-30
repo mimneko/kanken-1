@@ -39,7 +39,7 @@
                 <div class="logo">
                     <a href="{{ site.mimnekonote_url }}/">
                         <img src="{{ site.mimnekonote_url }}/assets/icons/mimneko-note-icon.png" alt="サイトアイコン" class="site-icon">
-                        <span class="site-name">みむねこのーと</span>
+                        <span class="site-name">{{ site.title }}</span>
                     </a>
                 </div>
                 
@@ -72,7 +72,7 @@
                 
                 {% include navigation.html %}
                 
-                <p class="copyright">Copyright &copy; 2023 - {{ "now" | date: "%Y" }} みむねこのーと.<br class="copyright-break"> All rights reserved.</p>
+                <p class="copyright">Copyright &copy; {{ site.launch_date | date: "%Y" }} - {{ "now" | date: "%Y" }} {{ site.title }}.<br class="copyright-break"> All rights reserved.</p>
             </div>
         </footer>
         
