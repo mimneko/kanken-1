@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="page-title">{{ page.title }}</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="https://mimneko.github.io/note/assets/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://mimneko.github.io/note/assets/icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://mimneko.github.io/note/assets/icons/favicon-16x16.png">
-    <link rel="preload" href="https://mimneko.github.io/note/assets/css/styles.css" as="style">
-    <link rel="stylesheet" href="https://mimneko.github.io/note/assets/css/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.mimnekonote_url }}/assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.mimnekonote_url }}/assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.mimnekonote_url }}/assets/icons/favicon-16x16.png">
+    <link rel="preload" href="{{ site.mimnekonote_url }}/assets/css/styles.css" as="style">
+    <link rel="stylesheet" href="{{ site.mimnekonote_url }}/assets/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="preload" href="{{ site.baseurl }}/assets/css/styles.css" as="style">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
@@ -24,16 +24,16 @@
         <header>
             <div class="header-content">
                 <div class="logo">
-                    <a href="https://mimneko.github.io/note/">
-                        <img src="https://mimneko.github.io/note/assets/icons/mimneko-note-icon.png" alt="サイトアイコン" class="site-icon">
+                    <a href="{{ site.mimnekonote_url }}/">
+                        <img src="{{ site.mimnekonote_url }}/assets/icons/mimneko-note-icon.png" alt="サイトアイコン" class="site-icon">
                         <span class="site-name">みむねこのーと</span>
                     </a>
                 </div>
                 <nav class="nav-content">
                     <ul class="nav-list">
-                        <li><a href="https://mimneko.github.io/onote/">ホーム</a></li>
-                        <li><a href="https://mimneko.github.io/note/about/">このサイトについて</a></li>
-                        <li><a href="https://mimneko.github.io/note/tags/">カテゴリ＆タグ</a></li>
+                        <li><a href="{{ site.mimnekonote_url }}/">ホーム</a></li>
+                        <li><a href="{{ site.mimnekonote_url }}/about/">このサイトについて</a></li>
+                        <li><a href="{{ site.mimnekonote_url }}/tags/">カテゴリ＆タグ</a></li>
                     </ul>
                 </nav>
             </div>
@@ -62,9 +62,9 @@
             <div class="footer-content">
                 <nav class="nav-content">
                     <ul class="nav-list">
-                        <li><a href="https://mimneko.github.io/note/">ホーム</a></li>
-                        <li><a href="https://mimneko.github.io/note/about/">このサイトについて</a></li>
-                        <li><a href="https://mimneko.github.io/note/tags/">カテゴリ＆タグ</a></li>
+                        <li><a href="{{ site.mimnekonote_url }}/">ホーム</a></li>
+                        <li><a href="{{ site.mimnekonote_url }}/about/">このサイトについて</a></li>
+                        <li><a href="{{ site.mimnekonote_url }}/tags/">カテゴリ＆タグ</a></li>
                     </ul>
                 </nav>
                 <p class="copyright">Copyright © 2023 - 2024 みむねこのーと.<br class="copyright-break"> All rights reserved.</p>
