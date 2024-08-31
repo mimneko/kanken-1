@@ -2,7 +2,7 @@
 
 plugins:
   - jekyll-remote-theme
-remote_theme: mimneko/Kiss-Jekyll-Lite@v1.0.0
+remote_theme: mimneko/Kiss-Jekyll-Lite@v1.1.0
 
 baseurl: "/kanken-1"
 url: "https://mimneko.github.io" # サイトのURL。
