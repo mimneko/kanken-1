@@ -4,5 +4,6 @@ plugins:
   - jekyll-remote-theme
 remote_theme: mimneko/Kiss-Jekyll-Lite
 
-baseurl: "https://mimneko.github.io/kanken-1"
+baseurl: "/kanken-1"
+url: "https://mimneko.github.io" # サイトのURL。
 styles: ["/assets/css/styles.css"]
