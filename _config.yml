@@ -1,7 +1,3 @@
 # _config.yml
 baseurl: "https://mimneko.github.io/kanken-1"
 styles: ["/assets/css/styles.css"]
-
-title: "みむねこのーと"   # サイトの名前
-launch_date: "2023-12-11"     # 開設日
-mimnekonote_url: "https://mimneko.github.io/note"
