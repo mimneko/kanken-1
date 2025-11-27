@@ -1,0 +1,336 @@
+/* -----------------------------------------
+    汎用
+----------------------------------------- */
+:root {
+    --color-mystic: #e2e8f0;
+    --color-catskill: #f1f5f9;
+    --card-border-color: var(--color-mystic);
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--card-border-color);
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* -----------------------------------------
+    本ページ専用
+----------------------------------------- */
+:root {
+    --choice-bg-color: var(--color-catskill);
+    --toggle-btn-on-color: var(--color-orange);
+    --toggle-btn-bg-color: var(--color-purewhite);
+    --toggle-btn-border-color: var(--color-mystic);
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    text-decoration: none;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem auto;
+}
+
+.btn-randomize {
+    background-color: var(--color-black);
+    color: var(--color-purewhite);
+    font-size: 16px;
+    padding: 0.6em 1em 0.5em;
+}
+
+.btn:hover { opacity: 0.9; }
+
+.question-text {
+    padding-left: 0.5em;
+}
+
+.question-choices {
+    border: 1px solid var(--card-border-color);
+    border-radius: 5px;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    background-color: var(--choice-bg-color);
+    margin-top: 1rem;
+}
+
+.question-choice {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.question-choice:not(:last-child)::after {
+    content: '・';
+    margin-left: 0.5rem;
+}
+
+.answer-details {
+    margin-top: 1rem;
+    border: 1px solid var(--card-border-color);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.answer-details[open] summary {
+    margin-bottom: 0.5rem;
+}
+
+.answer-section {
+    margin-top: 0.5rem;
+}
+
+.explanation {
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px dashed var(--card-border-color);
+}
+
+.question {
+    margin-bottom: 1rem;
+}
+
+.each-question-number {
+    margin-right: 0.5rem;
+}
+
+.each-question-char {
+    margin-right: 0.75rem;
+}
+
+.cdots {
+    margin: 0 1rem;
+}
+
+.cdots::after {
+    content: '…';
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.underline-text {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+}
+
+.main-question {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--card-border-color);
+}
+
+.main-question:first-of-type {
+    padding-top: 2rem;
+    border-top: 2px solid var(--card-border-color);
+}
+
+.main-question > summary {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.main-question-number,
+.sub-question-number {
+    margin-right: 1em;
+}
+
+/* -----------------------------------------
+    toggle-button
+----------------------------------------- */
+.toggle-button {
+    position: relative;
+    width: 85px;
+    height: 42px;
+    margin: 1rem auto;
+}
+
+.toggle-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.toggle-label {
+    width: 85px;
+    height: 42px;
+    background: var(--toggle-btn-bg-color);
+    border: 3px solid var(--toggle-btn-border-color);
+    position: relative;
+    display: inline-block;
+    border-radius: 40px;
+    transition: 0.4s;
+    box-sizing: border-box;
+}
+
+.toggle-label:after {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    left: 2px;
+    top: 2px;
+    z-index: 2;
+    background: var(--toggle-btn-border-color);
+    transition: 0.4s;
+}
+
+.toggle-input:checked + .toggle-label {
+    border: 3px solid var(--toggle-btn-on-color);
+}
+
+.toggle-input:checked + .toggle-label:after {
+    left: 42px;
+    background: var(--toggle-btn-on-color);
+}
+
+.label-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 22px;
+    transition: color 0.4s;
+}
+
+.on-text {
+    right: -100px;
+    color: var(--toggle-btn-border-color);
+    user-select: none;
+    border: none;
+    text-decoration: none;
+}
+
+.toggle-input:checked ~ .on-text {
+    color: var(--toggle-btn-on-color);
+}
+
+.toggle-button {
+    display: none;
+}
+
+/* -----------------------------------------
+    json-table
+----------------------------------------- */
+#json-table {
+    margin: 0 auto;
+    table-layout: auto;
+    border-collapse: collapse;
+}
+
+#json-table th {
+    background: var(--color-purewhite);
+    color: var(--color-black);
+    padding: 10px;
+}
+
+#json-table td {
+    padding: 10px;
+    min-height: 46px;
+    min-width: 5rem;
+}
+
+#json-table tbody tr {
+    border-bottom: 1px solid var(--color-black);
+}
+
+#json-table td.word {
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+    #table-container {
+        margin: 0;
+    }
+    
+    #json-table {
+        width: 100%;
+    }
+
+    #json-table tr:has(th) {
+        display: none;
+    }
+
+    #json-table td {
+        display: block;
+        text-align: left;
+        font-size: 1rem;
+        position: relative;
+        padding-left: 5rem; /* 左側に余白を追加 */
+        box-sizing: border-box; /* パディングを含むボックスサイズを設定 */
+        min-width: 0;
+    }
+
+    #json-table td:first-child {
+        background: var(--color-purewhite);
+        color: var(--color-black);
+        /*font-weight: bold;*/
+    }
+
+    #json-table td:before {
+        content: attr(data-label);
+        font-size: 1rem;
+        font-weight: bold;
+        position: absolute;
+        left: 0;
+        width: 5rem; /* tdの左側に追加した余白と同じ幅に設定 */
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center; /* 中央揃えにする */
+    }    
+
+    #json-table td.word {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    #json-table td.kana {
+        text-align: center;
+    }
+
+    #json-table td.meaning,
+    #json-table td.sentence {
+        text-align: left;
+    }
+
+    #json-table td:empty {
+        display: none;
+    }
+}
+
+/* -----------------------------------------
+    他
+----------------------------------------- */
+select {
+    font-size: 1.2rem;
+    padding: .5rem 0;
+    margin: .5rem 0;
+}

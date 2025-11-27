@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'ja' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">
+        {% if page.title %}
+            {{ page.title }} - {{ site.title }}
+        {% else %}
+            {{ site.title }}
+        {% endif %}
+    </title>
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- ファビコン -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/icons/apple-touch-icon.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/icons/favicon-32x32.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/icons/favicon-16x16.png' | relative_url }}">
+    <link rel="manifest" href="{{ '/assets/icons/manifest.json' | relative_url }}">
+    <link rel="mask-icon" href="{{ '/assets/icons/safari-pinned-tab.svg' | relative_url }}" color="#3498db">
+    <meta name="msapplication-TileColor" content="#3498db">
+    <meta name="theme-color" content="#3498db">
+
+    <!-- css & js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="preload" href="{{ '/assets/css/styles.css' | relative_url }}" as="style">
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+    <link rel="preload" href="{{ '/assets/css/styles2.css' | relative_url }}" as="style">
+    <link rel="stylesheet" href="{{ '/assets/css/styles2.css' | relative_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+</head>
+
+<body>
+    <div class="page-container">
+
+        <header>
+            <div class="header-content">
+                <!-- ヘッダーロゴ -->
+                <div class="site-logo">
+                    <a href="{{ '/' | relative_url }}">
+                        <img src="{{ '/assets/icons/mimneko-note-icon.png' | relative_url }}" alt="サイトアイコン" class="site-icon">
+                        <span class="site-name">{{ site.title }}</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="main-content">
+                <div class="main-wrap">
+
+                    {{ content }}
+
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <p class="copyright">Copyright &copy; 2023 - {{ "now" | date: "%Y" }} <br class="copyright-break">{{ site.title }} All rights reserved.</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    {% if page.scripts %}
+    {% for script in page.scripts %}
+    <script src="{{ site.url }}{{ site.baseurl }}/{{ script }}"></script>
+    {% endfor %}
+    {% endif %}
+</body>
+</html>
